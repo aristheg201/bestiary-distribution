@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "timestamp": 1787065576051,
+  "timestamp": 1787067822086,
   "files": [
     {
       "path": "mods/accessories_compat_layer-fabric-0.1.12+1.21.1.jar",
@@ -619,6 +619,12 @@
       "hash": "c5baa07f405433f62218fc3916360d4cda37558d01d493df7a618ac7d78d22c1",
       "size": 821382,
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c5baa07f405433f62218fc3916360d4cda37558d01d493df7a618ac7d78d22c1.bin"
+    },
+    {
+      "path": "mods/smart_particles+mc1.21.1-1.01.10.jar",
+      "hash": "42380961a313ac77ce62d223b2f59b3375f5c5a3507cd033d712ea6127cef78e",
+      "size": 50316,
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-42380961a313ac77ce62d223b2f59b3375f5c5a3507cd033d712ea6127cef78e.bin"
     },
     {
       "path": "mods/sodium-fabric-0.6.13+mc1.21.1.jar",
