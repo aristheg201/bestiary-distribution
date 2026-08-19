@@ -1,9 +1,10 @@
 {
   "discordUrl": "https://discord.com/invite/HeYXW6AT3v",
-  "defaultMinecraftVersion": "1.21.1",
-  "defaultFabricLoader": "0.18.4",
-  "javaMajor": 21,
   "serverName": "Bestiary Rebirth",
-  "serverHost": "play.svframe.net",
-  "serverPort": 25565
+  "serverHost": "poke.sv-frame.com",
+  "serverPort": 19000,
+  "minecraftVersion": "1.21.1",
+  "modLoader": "fabric",
+  "defaultFabricLoader": "0.18.4",
+  "javaMajor": 21
 }
