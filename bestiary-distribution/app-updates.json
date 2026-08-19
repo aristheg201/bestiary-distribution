@@ -3,10 +3,10 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.3.1",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.1/BestiaryLauncher-Setup-5.3.1.exe",
-      "sha256": "162955bcae7af17d02cb928bf2bffc28fefdc991c847b046805e6e40e075bc47",
-      "releaseNotes": "Sửa trạng thái CHƠI khi Minecraft đã đóng; updater cache-busting và tự retry SHA một lần; giữ Microsoft login, Tài khoản & Skin, Content Manager và profile Full/Lite/Android."
+      "version": "5.3.2",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.2/BestiaryLauncher-Setup-5.3.2.exe",
+      "sha256": "ab6546c0262daea355f81fe95414bd53a74990c88a3d0c8d35a818d84200f15b",
+      "releaseNotes": "Sửa Launcher giữ remote/config cũ: màn Tài khoản & Skin luôn refresh distribution để nhận Microsoft Client ID và stable version mới mà không cần restart; giữ fix Minecraft lifecycle và updater SHA cache-busting của 5.3.1."
     },
     "manager": {
       "version": "6.2.0",
