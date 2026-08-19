@@ -12,7 +12,8 @@ The static review site lives in [`site/`](site/) and documents:
 - Minecraft: Java Edition entitlement/profile access;
 - player-initiated skin management;
 - local credential handling and privacy information;
-- reviewer-facing Java Edition Game Service API integration details.
+- reviewer-facing Java Edition Game Service API integration details;
+- the separate server-local/offline identity mode and its isolation from Microsoft/Xbox/Minecraft Game Service authentication.
 
 GitHub Pages workflow: [`.github/workflows/pages.yml`](.github/workflows/pages.yml)
 
@@ -29,6 +30,14 @@ Expected Pages URL after Pages is enabled for this repository:
 - OAuth scopes used by the launcher: `XboxLive.signin offline_access`
 
 The launcher does **not** collect Microsoft passwords and does not embed a client secret.
+
+Microsoft account mode performs Xbox/XSTS exchange, Java Edition entitlement verification and authenticated profile retrieval before an authenticated Minecraft profile is accepted.
+
+## Local / offline identity mode
+
+Bestiary Launcher also supports a separate server-local/offline identity mode for the Bestiary community. This mode is isolated from the Microsoft authentication path and Java Edition Game Service APIs. It does not request Microsoft/Xbox/Minecraft access tokens, does not fabricate entitlement responses or an authenticated premium profile, and is not presented as proof of Java Edition ownership.
+
+Player skin data in local/offline mode is handled through the Bestiary server-local skin bridge. Minecraft profile skin APIs are only used for the currently authenticated Microsoft-backed player's own profile.
 
 ## Distribution
 
