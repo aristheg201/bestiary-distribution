@@ -3,10 +3,10 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.3.0",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.0/BestiaryLauncher-Setup-5.3.0.exe",
-      "sha256": "d5a3e66ddf4eaa19653e536aa30348230c8bde11ed8697d1eb7a8c3e72f252a5",
-      "releaseNotes": "Microsoft Minecraft Java login, account-aware Play, Tài khoản & Skin cho premium/crack, Bestiary Skin Bridge 1.0.0; giữ Content Manager và profile Full/Lite/Android."
+      "version": "5.3.1",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.1/BestiaryLauncher-Setup-5.3.1.exe",
+      "sha256": "162955bcae7af17d02cb928bf2bffc28fefdc991c847b046805e6e40e075bc47",
+      "releaseNotes": "Sửa trạng thái CHƠI khi Minecraft đã đóng; updater cache-busting và tự retry SHA một lần; giữ Microsoft login, Tài khoản & Skin, Content Manager và profile Full/Lite/Android."
     },
     "manager": {
       "version": "6.2.0",
