@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "releaseRepository": "aristheg201/codespaces-blank",
+  "products": {
+    "launcher": {
+      "tagPrefix": "launcher-v",
+      "installerPattern": "BestiaryLauncher-Setup-{version}.exe",
+      "sha256Pattern": "BestiaryLauncher-Setup-{version}-SHA256.txt"
+    },
+    "manager": {
+      "tagPrefix": "manager-v",
+      "installerPattern": "BestiaryPackManager-Setup-{version}.exe",
+      "sha256Pattern": "BestiaryPackManager-Setup-{version}-SHA256.txt"
+    }
+  }
+}
