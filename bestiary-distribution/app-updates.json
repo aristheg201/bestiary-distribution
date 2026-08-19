@@ -3,16 +3,16 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.2.0",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.2.0/BestiaryLauncher-Setup-5.2.0.exe",
-      "sha256": "9e1dc0e272533b4c62f86463aae500ed2cf96775a632e6601fadf903034801e3",
-      "releaseNotes": "Content Manager toàn màn hình, tìm kiếm và bộ lọc modlist, drag-drop tự phân loại, tách Bestiary/personal content, auto updater SHA-256."
+      "version": "5.3.0",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.0/BestiaryLauncher-Setup-5.3.0.exe",
+      "sha256": "d5a3e66ddf4eaa19653e536aa30348230c8bde11ed8697d1eb7a8c3e72f252a5",
+      "releaseNotes": "Microsoft Minecraft Java login, account-aware Play, Tài khoản & Skin cho premium/crack, Bestiary Skin Bridge 1.0.0; giữ Content Manager và profile Full/Lite/Android."
     },
     "manager": {
-      "version": "6.1.0",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/manager-v6.1.0/BestiaryPackManager-Setup-6.1.0.exe",
-      "sha256": "5bf28411b280fd2f95857b103ebe459983beb64ba1ac6353df6c4d5788987d1e",
-      "releaseNotes": "Auto updater SHA-256; giữ import ZIP PC Full, PC Lite, Android, trạng thái mod và publish profile theo file."
+      "version": "6.2.0",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/manager-v6.2.0/BestiaryPackManager-Setup-6.2.0.exe",
+      "sha256": "8b842b32f586d335e98aede3a9e2310f3c0ab6543d89d052142986371c0e2ed7",
+      "releaseNotes": "Thêm cấu hình Microsoft Application Client ID cho Launcher; giữ auto updater, import ZIP PC Full/PC Lite/Android, trạng thái mod và publish profile theo file."
     }
   }
 }
