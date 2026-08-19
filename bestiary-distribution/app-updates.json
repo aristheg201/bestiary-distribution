@@ -3,14 +3,16 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "tagPrefix": "launcher-v",
-      "installerPattern": "BestiaryLauncher-Setup-{version}.exe",
-      "sha256Pattern": "BestiaryLauncher-Setup-{version}-SHA256.txt"
+      "version": "5.2.0",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.2.0/BestiaryLauncher-Setup-5.2.0.exe",
+      "sha256": "9e1dc0e272533b4c62f86463aae500ed2cf96775a632e6601fadf903034801e3",
+      "releaseNotes": "Content Manager toàn màn hình, tìm kiếm và bộ lọc modlist, drag-drop tự phân loại, tách Bestiary/personal content, auto updater SHA-256."
     },
     "manager": {
-      "tagPrefix": "manager-v",
-      "installerPattern": "BestiaryPackManager-Setup-{version}.exe",
-      "sha256Pattern": "BestiaryPackManager-Setup-{version}-SHA256.txt"
+      "version": "6.1.0",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/manager-v6.1.0/BestiaryPackManager-Setup-6.1.0.exe",
+      "sha256": "5bf28411b280fd2f95857b103ebe459983beb64ba1ac6353df6c4d5788987d1e",
+      "releaseNotes": "Auto updater SHA-256; giữ import ZIP PC Full, PC Lite, Android, trạng thái mod và publish profile theo file."
     }
   }
 }
