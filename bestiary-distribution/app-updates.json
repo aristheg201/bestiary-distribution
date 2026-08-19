@@ -3,10 +3,10 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.3.2",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.2/BestiaryLauncher-Setup-5.3.2.exe",
-      "sha256": "ab6546c0262daea355f81fe95414bd53a74990c88a3d0c8d35a818d84200f15b",
-      "releaseNotes": "Sửa Launcher giữ remote/config cũ: màn Tài khoản & Skin luôn refresh distribution để nhận Microsoft Client ID và stable version mới mà không cần restart; giữ fix Minecraft lifecycle và updater SHA cache-busting của 5.3.1."
+      "version": "5.3.3",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.3/BestiaryLauncher-Setup-5.3.3.exe",
+      "sha256": "c9e03a2948787ee84bd5f7d49667181ba664b161f373a0c8e4dbb242dbec4f17",
+      "releaseNotes": "Đổi wording account thành LOCAL / OFFLINE, bỏ thuật ngữ crack khỏi UI, làm rõ mode local tách biệt khỏi Microsoft/Java Edition Game Service APIs; giữ entitlement verification bắt buộc cho Microsoft account, fresh remote refresh, lifecycle fix và SHA-verified updater."
     },
     "manager": {
       "version": "6.2.0",
