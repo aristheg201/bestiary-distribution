@@ -22,7 +22,7 @@
     <section class="hero">
       <div class="eyebrow">BESTIARY REBIRTH · JAVA EDITION</div>
       <h1>A focused launcher for the Bestiary community.</h1>
-      <p class="lead">Bestiary Launcher installs and updates the server client, manages optional client content, and supports both offline accounts and Microsoft-authenticated Minecraft: Java Edition accounts.</p>
+      <p class="lead">Bestiary Launcher installs and updates the server client, manages optional client content, and supports a separate server-local/offline identity mode alongside Microsoft-authenticated Minecraft: Java Edition accounts.</p>
       <div class="hero-actions">
         <a class="primary" href="https://github.com/aristheg201/codespaces-blank/releases">Releases</a>
         <a class="secondary" href="https://github.com/aristheg201/bestiary-distribution">Distribution repository</a>
@@ -33,14 +33,14 @@
     <section id="about" class="grid three">
       <article class="card"><span>01</span><h2>Managed client</h2><p>Downloads the exact Bestiary release selected by the server distribution, including pinned Minecraft, Fabric Loader and Java runtime requirements.</p></article>
       <article class="card"><span>02</span><h2>Content management</h2><p>Provides a dedicated screen for mods, resource packs and shaders, including drag-and-drop installation of personal client content.</p></article>
-      <article class="card"><span>03</span><h2>Account choice</h2><p>Players may continue to use an offline profile or explicitly sign in with a Microsoft account that owns Minecraft: Java Edition.</p></article>
+      <article class="card"><span>03</span><h2>Account choice</h2><p>Players may use the community's server-local/offline identity mode or explicitly sign in with a Microsoft account that owns Minecraft: Java Edition. The two authentication paths are separate.</p></article>
     </section>
 
     <section id="auth" class="panel">
       <div>
         <div class="eyebrow">MICROSOFT AUTHENTICATION</div>
         <h2>No Microsoft password is collected by the launcher.</h2>
-        <p>Bestiary Launcher uses Microsoft's Device Code Flow as a native/public client. The player completes sign-in on Microsoft's own website. The launcher then exchanges the resulting Microsoft token through Xbox Live, XSTS and Minecraft Services to verify Java Edition ownership and retrieve the player's Minecraft profile.</p>
+        <p>Bestiary Launcher uses Microsoft's Device Code Flow as a native/public client. The player completes sign-in on Microsoft's own website. The launcher then exchanges the resulting Microsoft token through Xbox Live, XSTS and Minecraft Services to verify Java Edition ownership and retrieve the player's Minecraft profile. Server-local/offline mode does not use this token or call the Java Edition entitlement/profile APIs.</p>
       </div>
       <dl class="facts">
         <div><dt>Application</dt><dd>Bestiary Launcher</dd></div>
@@ -53,7 +53,7 @@
 
     <section class="grid two">
       <article class="card"><div class="eyebrow">PRIVACY</div><h2>Local-first account storage</h2><p>Refresh credentials are stored locally using the operating-system-backed secure storage available to the desktop application. Access tokens are not exposed to the launcher renderer UI.</p><a href="privacy.html">Read privacy details →</a></article>
-      <article class="card"><div class="eyebrow">REVIEW</div><h2>Java Edition service integration</h2><p>A reviewer-facing page documents why the launcher needs Minecraft game service access, the endpoints used, and the protections around authentication.</p><a href="app-review.html">Open API review details →</a></article>
+      <article class="card"><div class="eyebrow">REVIEW</div><h2>Java Edition service integration</h2><p>A reviewer-facing page documents why the launcher needs Minecraft game service access, the endpoints used, the separation of local/offline mode, and the protections around authentication.</p><a href="app-review.html">Open API review details →</a></article>
     </section>
 
     <section class="panel compact">
