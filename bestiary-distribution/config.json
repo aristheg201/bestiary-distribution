@@ -1,3 +1,9 @@
 {
-  "discordUrl": "https://discord.com/invite/HeYXW6AT3v"
+  "discordUrl": "https://discord.com/invite/HeYXW6AT3v",
+  "defaultMinecraftVersion": "1.21.1",
+  "defaultFabricLoader": "0.18.4",
+  "javaMajor": 21,
+  "serverName": "Bestiary Rebirth",
+  "serverHost": "play.svframe.net",
+  "serverPort": 25565
 }
