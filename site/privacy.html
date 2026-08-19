@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Privacy · Bestiary Launcher</title><link rel="stylesheet" href="styles.css"/></head>
+<body>
+<header class="nav"><a class="brand" href="./">BESTIARY <span>LAUNCHER</span></a><nav><a href="index.html">Home</a><a href="app-review.html">API Review</a></nav></header>
+<main>
+<section class="hero"><div class="eyebrow">PRIVACY</div><h1>Authentication without collecting Microsoft passwords.</h1><p class="lead">This page describes the data handled by Bestiary Launcher when a player chooses Microsoft-authenticated Minecraft: Java Edition login.</p></section>
+<section class="panel"><div><div class="eyebrow">MICROSOFT SIGN-IN</div><h2>What the launcher does not collect</h2><p>Bestiary Launcher never asks for, receives, stores or proxies a player's Microsoft password. Sign-in is completed on Microsoft's own authentication pages through Device Code Flow.</p></div><dl class="facts"><div><dt>Password</dt><dd>Not collected</dd></div><div><dt>Client secret</dt><dd>Not embedded or used</dd></div><div><dt>OAuth application type</dt><dd>Native / public client</dd></div></dl></section>
+<section class="grid two">
+<article class="card"><div class="eyebrow">LOCAL DATA</div><h2>What may be stored locally</h2><p>The launcher may retain the selected account mode, Minecraft profile name, Minecraft UUID/XUID, skin metadata, launcher settings and a Microsoft refresh credential required to keep the user signed in. The refresh credential is encrypted through Electron safeStorage using the operating-system-backed protection available on the user's Windows account.</p></article>
+<article class="card"><div class="eyebrow">TRANSIENT DATA</div><h2>What stays in memory</h2><p>Microsoft, Xbox Live, XSTS and Minecraft access tokens are used only as needed to perform authentication and Minecraft service requests. They are not exposed to the renderer user interface and are not published in Bestiary distribution files.</p></article>
+<article class="card"><div class="eyebrow">PUBLIC CONFIG</div><h2>Application Client ID</h2><p>The Microsoft Application (client) ID is public configuration, not a credential. Publishing it allows Microsoft to identify the Bestiary Launcher application during public-client authentication.</p></article>
+<article class="card"><div class="eyebrow">PLAYER CONTROL</div><h2>Logout and skin controls</h2><p>Players can switch back to an offline profile, sign out of Microsoft, select a skin file, apply a skin or reset their skin from the launcher account screen.</p></article>
+</section>
+<section class="panel compact"><div><div class="eyebrow">DATA SHARING</div><h2>No sale of authentication data</h2><p>Bestiary does not sell Microsoft authentication data. Authentication requests are sent to Microsoft/Xbox/Minecraft services for the purposes described on the API review page.</p></div><div class="hero-actions"><a class="secondary" href="app-review.html">API review details</a><a class="secondary" href="https://github.com/aristheg201/bestiary-distribution/issues">Contact via GitHub</a></div></section>
+</main>
+<footer><span>Bestiary Launcher</span><span>Independent third-party community software.</span></footer>
+</body></html>
