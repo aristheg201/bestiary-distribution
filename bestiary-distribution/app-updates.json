@@ -3,16 +3,23 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.3.6",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.6/BestiaryLauncher-Setup-5.3.6.exe",
-      "sha256": "7fa25510fb0ad1271b2d403ca684f3b132228531cff4e6a353ca2f7c03194f8e",
-      "releaseNotes": "Sửa lỗi đóng Launcher nhưng process vẫn treo trong Task Manager khiến không mở lại được. Bản 5.3.6 thoát sạch khi đóng cửa sổ, mở lại bình thường và khi chạy EXE lần hai sẽ restore/focus cửa sổ đang có. Giữ nguyên UI và luồng tài khoản của 5.3.5."
+      "version": "5.3.7",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.7/BestiaryLauncher-Setup-5.3.7.exe",
+      "sha256": "7b4f8c36889620a6406558f33e942fe69052d3fbf8015db9533f52e7c4ce053e",
+      "releaseNotes": "Sửa lifecycle/process tree để đóng Launcher không còn process zombie, second-instance restore/focus cửa sổ hiện có, scrollbar desktop và áp dụng keybind policy DEFAULT/LOCKED từ Manager."
     },
     "manager": {
-      "version": "6.2.0",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/manager-v6.2.0/BestiaryPackManager-Setup-6.2.0.exe",
-      "sha256": "8b842b32f586d335e98aede3a9e2310f3c0ab6543d89d052142986371c0e2ed7",
-      "releaseNotes": "Thêm cấu hình Microsoft Application Client ID cho Launcher; giữ auto updater, import ZIP PC Full/PC Lite/Android, trạng thái mod và publish profile theo file."
+      "version": "6.3.1",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/manager-v6.3.1/BestiaryPackManager-Setup-6.3.1.exe",
+      "sha256": "88953360b35da2afeb43585ac0fec66f9314663efaf9400f8857c089e2df186e",
+      "releaseNotes": "Keybind Manager tự quét các key_* trực tiếp từ options.txt. DEFAULT bám giá trị thực tế, LOCKED giữ giá trị quản trị đặt; không ghi đè FOV, âm lượng, đồ họa, ngôn ngữ hay option không liên quan."
+    },
+    "android": {
+      "version": "1.0.4",
+      "apkUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/android-v1.0.4/BestiaryLauncher-Android-1.0.4.apk",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/android-v1.0.4/BestiaryLauncher-Android-1.0.4.apk",
+      "sha256": "528a330e84b1d0419a4f996692d87c6032aa4190e14542afe5cae40801241f97",
+      "releaseNotes": "Tối ưu Android theo RAM/màn hình thay vì cấp heap quá lớn: profile 7 GB dùng khoảng 2.5 GB mặc định, giảm resolution theo mật độ màn hình, big-core affinity khi phù hợp, tắt forced VSync mặc định và tune G1GC. Auto updater tải APK, kiểm SHA-256 rồi mở Android Package Installer."
     }
   }
 }
