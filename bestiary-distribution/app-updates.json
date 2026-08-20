@@ -3,10 +3,10 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.3.5",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.5/BestiaryLauncher-Setup-5.3.5.exe",
-      "sha256": "9ec2b9a21571884079fa9c40077af52fb63b6e35cfaa7e0292d56cbaad1e9f79",
-      "releaseNotes": "Giữ nguyên UI tài khoản và Home của 5.3.3. Bestiary vẫn có Login with Microsoft để nhận biết tài khoản Microsoft; khi bấm CHƠI NGAY ở Microsoft mode, launcher đồng bộ client rồi mở Minecraft Launcher chính thức để xử lý phiên game. Local / Offline vẫn direct launch như trước."
+      "version": "5.3.6",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.6/BestiaryLauncher-Setup-5.3.6.exe",
+      "sha256": "7fa25510fb0ad1271b2d403ca684f3b132228531cff4e6a353ca2f7c03194f8e",
+      "releaseNotes": "Sửa lỗi đóng Launcher nhưng process vẫn treo trong Task Manager khiến không mở lại được. Bản 5.3.6 thoát sạch khi đóng cửa sổ, mở lại bình thường và khi chạy EXE lần hai sẽ restore/focus cửa sổ đang có. Giữ nguyên UI và luồng tài khoản của 5.3.5."
     },
     "manager": {
       "version": "6.2.0",
