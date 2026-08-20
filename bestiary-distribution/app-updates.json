@@ -3,10 +3,10 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.3.7",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.7-r1/BestiaryLauncher-Setup-5.3.7.exe",
-      "sha256": "7b4f8c36889620a6406558f33e942fe69052d3fbf8015db9533f52e7c4ce053e",
-      "releaseNotes": "Sửa lifecycle/process tree để đóng Launcher không còn process zombie, second-instance restore/focus cửa sổ hiện có, scrollbar desktop và áp dụng keybind policy DEFAULT/LOCKED từ Manager. Installer 5.3.7 được republish từ đúng artifact CI đã verify dưới URL mới để tránh asset cũ bị lệch SHA/cache."
+      "version": "5.3.8",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.8/BestiaryLauncher-Setup-5.3.8.exe",
+      "sha256": "a0facf7ac1e300ed9a7a902f04196630b152941ce39a57fbac16e7a0919e36b0",
+      "releaseNotes": "Sửa Microsoft mode không nhận RAM/JVM của Bestiary. Trước khi mở Minecraft Launcher chính thức, Bestiary giờ đồng bộ RAM tối thiểu/tối đa và JVM flags đã lưu vào đúng installation Bestiary Rebirth. Không sửa các profile Minecraft khác và không đọc/ghi credential của Minecraft Launcher."
     },
     "manager": {
       "version": "6.3.2",
