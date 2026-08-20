@@ -1,6 +1,6 @@
 {
   "version": "1.0.2",
-  "timestamp": 1787156746691,
+  "timestamp": 1787234454685,
   "minecraft": {
     "version": "1.21.1",
     "loader": "fabric",
@@ -29,8 +29,16 @@
       "description": "Bộ mod dành riêng cho Bestiary Launcher Android / Pojav.",
       "minimumRamMb": 3072,
       "recommendedRamMb": 4096,
-      "fileCount": 107,
-      "totalBytes": 471095402
+      "fileCount": 108,
+      "totalBytes": 472393163
+    },
+    "server": {
+      "name": "Server",
+      "description": "Mod bắt buộc hoặc được phép chạy trên dedicated server.",
+      "minimumRamMb": 0,
+      "recommendedRamMb": 0,
+      "fileCount": 0,
+      "totalBytes": 0
     }
   },
   "files": [
@@ -43,6 +51,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c77c281616618ee51bb4f9bced4708be6d1baa690b3e8564a68d04df9f080980.bin"
     },
     {
@@ -54,6 +64,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-51e6f6d52cb2523199ad36e5bc04802230f86904c35ac3dbf36e59c86b2c30d1.bin"
     },
     {
@@ -63,6 +75,8 @@
       "profiles": [
         "full"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-9a19cec1294b1bc708392a08e6926dcb85d7378ec5ad909a4b6fcb8bc3bfeaa2.bin"
     },
     {
@@ -74,6 +88,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-ab17d5c7d8d8c93cc713437ed426f0ff0d6f802a48fff0c579a9bd3aaa833efd.bin"
     },
     {
@@ -85,6 +101,8 @@
         "lite",
         "android"
       ],
+      "side": "client",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e17aad84c690ac4e46300a4180b3ae4077ffa4f526dbc82d117afbbff4ee83e4.bin"
     },
     {
@@ -96,6 +114,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-579fd01922e731666c07acda4168272a842e25f5524f4dd04f5ed57b0a06b7fb.bin"
     },
     {
@@ -107,6 +127,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-dc402d74bcea0523df6379e45dd39e0eced8550dc582fc6d005990effc28675d.bin"
     },
     {
@@ -118,6 +140,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-2ecd3284a4443300873bb7a7aba4643aacf91acd778b377faeffa44afe049b9b.bin"
     },
     {
@@ -129,6 +153,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-967fea12fca27ec1243af8bbb71d9c9d556591385496192f8e9a9a36d1298eba.bin"
     },
     {
@@ -139,6 +165,8 @@
         "full",
         "lite"
       ],
+      "side": "client",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-ad1a1a47accca759fbaa7ec5a1f49501fdda40152139fb1d79392c3192b705eb.bin"
     },
     {
@@ -150,6 +178,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-302a8a4bc2e34cbffaf61af75ab5de47c06bfa159436665870ae61092b0f69a2.bin"
     },
     {
@@ -161,6 +191,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-1721c94365fd8d2d3c3fdcac7efbfd7e605daa7dfb8adc4c126c5bbde2820c79.bin"
     },
     {
@@ -172,6 +204,8 @@
         "lite",
         "android"
       ],
+      "side": "client",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-33894e95da3af59014b39d126586d5241e07ea39f8618763e30dab637405f95f.bin"
     },
     {
@@ -183,6 +217,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-357eef17a51c7c558c5de582077a740c2876619d9024e621acf2512510cf4657.bin"
     },
     {
@@ -194,6 +230,8 @@
         "android",
         "lite"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-59caf9a1b16f983ebac2cd8ec4047073892b80abd7bee972c8dac0b5544c9b71.bin"
     },
     {
@@ -205,6 +243,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-70650b525f86ec058f69d584df416425cc191e2bdd8826e70976b8953931ba58.bin"
     },
     {
@@ -216,6 +256,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-a007523e2dd8c6f47edc914d33d26ad0a860a0124038e1ec6303a593a919c1b4.bin"
     },
     {
@@ -227,6 +269,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c1230a58ca2369b973bfade68a0ffcac86ffcbf9dd2a845999ed8c5348bfef93.bin"
     },
     {
@@ -238,6 +282,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-a24e83284c7fb969aef6eecae435152f503b8e26b6f699f87caa3848877cb313.bin"
     },
     {
@@ -249,6 +295,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c73184e6d819f5fb5f4c79b762f32129ed0764a13b5a37e95f52cb65f09441f8.bin"
     },
     {
@@ -260,6 +308,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c3b9c15cda40e8dccb0e4d54640038fb03da09c2bd1c9b1306b51fdfad9482a3.bin"
     },
     {
@@ -271,6 +321,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-043ee6625cfdb796ee3c0d4210428fb2b93151d38a9fc97a1478488eb1f86f95.bin"
     },
     {
@@ -282,6 +334,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-515b30583657750a2c2bb90aa24196265ca93db4ed2a374e824a3e132c7036e7.bin"
     },
     {
@@ -293,6 +347,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-ba455539cdbbe7faef292acef6caae7fa350210ea1d8fca60cdd7d2832dac3c8.bin"
     },
     {
@@ -302,6 +358,8 @@
       "profiles": [
         "full"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-3b219c670ba24b729cfef58873e62f9347c4b7ebdc03110128051101ba69b9ef.bin"
     },
     {
@@ -313,6 +371,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-b62a8bf3795f2fe74265184e3ba3b3f41474024f5f5ff24755cdeb2200d28537.bin"
     },
     {
@@ -324,6 +384,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-259ca763ef67c536882f91a8588fa198bef48a229190e0e759e51bc4980a0adb.bin"
     },
     {
@@ -335,6 +397,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-5f5c4875fd1ad4cc8f6c17976d7fc25c24c82f3f0b2fb24e47bd4a63addfbff8.bin"
     },
     {
@@ -345,6 +409,8 @@
         "full",
         "lite"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-099c3dafd5c7d29e8d91f954a9598565fdd07dac235bb9c49ab305d9af37f826.bin"
     },
     {
@@ -356,6 +422,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-ee163479a15a8a8549b876f35e54bc0287a542f014a23384d023a47a86b80a08.bin"
     },
     {
@@ -367,6 +435,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-9031d53a1d0a608ad6a5b921169babe4537ee2f5f442e09cb26626c186d9af1f.bin"
     },
     {
@@ -378,6 +448,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-4505e36adf2a2f0f72a70069e17f19bdd6cff737e73b5522aa3496d5c454a38d.bin"
     },
     {
@@ -389,6 +461,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-f7c25955176badc444ad6211fc556514fedbdba776227f105fe899f8819d74e3.bin"
     },
     {
@@ -400,6 +474,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-70d42f707298c690f6552da77a65c73da86956d3e81667af0ef280851f5e8189.bin"
     },
     {
@@ -411,6 +487,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-b73f932c5e9f20eec28147c5113b28f15d92b77131fdce2f591d34518d7be709.bin"
     },
     {
@@ -422,6 +500,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e8116c17b922f99485d71024d42e36237fa3d2c63ce39e7eec2e6ac05a2e92e6.bin"
     },
     {
@@ -433,6 +513,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-bdba79e6e0966bde6785d6d58559992e8c18c337faecbfa760600b86a49f453e.bin"
     },
     {
@@ -444,6 +526,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-657e684836dc2aea6a947706a0b12eb94a99d07c1023099797d96ad12806577d.bin"
     },
     {
@@ -455,6 +539,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-0622532b75126b9d7ecd2b18b64bf62774ba52a5510ef1a1ffa527404682801f.bin"
     },
     {
@@ -466,6 +552,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-f44a33ac96f47a9eb02d48f148eb2cab3876e98053100e9e05530718ec087222.bin"
     },
     {
@@ -477,6 +565,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-d070f29970e39c77da578c05c762bbec093fe796b3ea82bafe79012df4268c12.bin"
     },
     {
@@ -488,6 +578,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-554697343ec91aab16e7c6a6d09538be0a0929fc552867dfc446422da064f813.bin"
     },
     {
@@ -499,6 +591,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-dae6c391bc030e709d9a0c430aa395d9d6c1fb0db49ff29ccc61c119f0ee82fe.bin"
     },
     {
@@ -510,6 +604,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-75b1675aebf1805d9dcb3e3a3cb127bb3bea10d99493872ae6e242813b8a6538.bin"
     },
     {
@@ -521,6 +617,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-9a43400bd84b455b22a42ba8d196b95f012d82d5c3f1cc1f20b61d57955dd367.bin"
     },
     {
@@ -532,6 +630,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-32f59c17b9941de43547d0d042d665a83fdfdbe1c09b6d52db1a1284cd487fc8.bin"
     },
     {
@@ -543,6 +643,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-2bad8880081c07ad2fcb68cca6fb0904e6887fe7286ada759ec0023698ebb8d6.bin"
     },
     {
@@ -554,6 +656,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-2b4f91df8be7f3bb4b6bc2622d1ce8cec961648d443c79210732f4c8b21ad4f2.bin"
     },
     {
@@ -565,6 +669,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-7f48a2f6f702b37dafd8c6270f006e4e09177f36144fdefaa49901ed529d0be4.bin"
     },
     {
@@ -576,6 +682,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e66eb486f5cfbeef2215910193eba0000c191bbf774fa59f3e0b955ce13cae45.bin"
     },
     {
@@ -587,6 +695,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-01b4bd3c1caffcb82aa509515bb21d84adffebed0ba2d4deadfa675c06768294.bin"
     },
     {
@@ -598,6 +708,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-0232ca9d69713f366eecec58838772848d969028b6bfe283cde86ac712ede361.bin"
     },
     {
@@ -609,6 +721,8 @@
         "android",
         "lite"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-f84db0d034b53dccb3d95cd7a1b1d1717105c20adb5164662dd42a8c5e3cf507.bin"
     },
     {
@@ -620,6 +734,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c06e5eb1d2ba2859ffa19e3155c65933362032b31be0d10019b29b0e1941eabc.bin"
     },
     {
@@ -631,6 +747,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-afe47cf9e3e112f9071cd9758d47eaced09c4ffa1d126657799c28e30c48bdbd.bin"
     },
     {
@@ -640,6 +758,8 @@
       "profiles": [
         "full"
       ],
+      "side": "client",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-3c3f800b4bf911a158435c36dac0cf4176bec36d837c0696fdfae39d7ec5f976.bin"
     },
     {
@@ -649,6 +769,8 @@
       "profiles": [
         "full"
       ],
+      "side": "client",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-d1b54ad6fd34eaf7187fb62556f2c5cacdc2ea3023a6217e3b2d823285aea148.bin"
     },
     {
@@ -660,6 +782,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-4b813fac536cc1bb4151e308a95a9298d9bbf1ebc3b96361f372dc697d37fa29.bin"
     },
     {
@@ -671,6 +795,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-175f3bffdf62453e5101e799a8f84f85375dddbc1326ef10f31b804ff7a5bbe8.bin"
     },
     {
@@ -682,6 +808,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-a61a10f730ab8aa45ff42486ee65699e6e51c28a0c168deb161e7d4029473aa3.bin"
     },
     {
@@ -693,6 +821,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-34ccdacf13bb9351fe43ce61912c2e09b72364e43e787d36ba3d2d04dec75a52.bin"
     },
     {
@@ -704,6 +834,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-0f6296ecc4cf5ff1042d508293299722fb2923bc2ce44bafcbcf63a0185b0aab.bin"
     },
     {
@@ -715,6 +847,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-623840962799852c289cbe86082e024f26767aedcd8c9641727a0a31d431aea9.bin"
     },
     {
@@ -726,6 +860,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-6d2bc477af0fd4f7cbff2a277ba9a49e50b13439d355277f28ed02528c02d3c1.bin"
     },
     {
@@ -737,6 +873,8 @@
         "android",
         "lite"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-7eee034d17281b43324cbdcc41a3836b6c44a93798d40a608538ed12a72279c1.bin"
     },
     {
@@ -748,6 +886,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-2e3a8f0e3bda85a7d722720e7ce879cbd9d028d9395c6fc224d329b3c982d9b1.bin"
     },
     {
@@ -759,6 +899,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-73d0e241ac9465d9d1a1edc4c1691a9664d2f0890316df1ae6d4c9128c98c99b.bin"
     },
     {
@@ -770,6 +912,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-89d1ce3ffe8eb11a27e2e5920b015be0b9b6691dc3707050ec2dcc325779ec21.bin"
     },
     {
@@ -781,6 +925,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-bc398b9f7837447c701ed3cae2dffadb35270340d82abdb72e97265c3583386f.bin"
     },
     {
@@ -792,6 +938,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-7fe31bbc7193a90b500feed23c7dd689d501ae9bba4668b4a0926cb022373523.bin"
     },
     {
@@ -803,6 +951,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-323dc065cc3aaeb7f908be7e5d31070a25d4188b433ed770a79700ef8f5e8f7d.bin"
     },
     {
@@ -814,6 +964,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-6e22afd6dc5467e26de5628bec8604cf48c4365adf4809c3d805c8505f8cb903.bin"
     },
     {
@@ -825,6 +977,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-905df8858ed4aa3a5c2a845b7c83bf1e3274c348d8e623269e7e245a3e2e647d.bin"
     },
     {
@@ -836,6 +990,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-9eb2eff5bec5e2084aa272522058001008c83e994babe4e31f9f87e92e21d986.bin"
     },
     {
@@ -847,6 +1003,8 @@
         "lite",
         "android"
       ],
+      "side": "client",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-05a5f3c716ae631af3cc925c8144894368c632156f2d581dd8295cc223ea2f6d.bin"
     },
     {
@@ -858,6 +1016,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-1829b11371aa462bd3f5f7416fd5460fd2cd8642631921ae17bcd713a3476f54.bin"
     },
     {
@@ -867,6 +1027,8 @@
       "profiles": [
         "full"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-fb834cc77804a6f509690c54b4af56305ce7a7f3171f8616310710f0af1f673a.bin"
     },
     {
@@ -877,6 +1039,8 @@
         "full",
         "lite"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-1d47dab86cee6d68e0887ec5e14deee125d3e2ea92c5ecedbb57f8f60aafa709.bin"
     },
     {
@@ -888,6 +1052,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-92329d98c57f5a22091a0adb509fdb1d60113a5602c708b799b13134bad13baa.bin"
     },
     {
@@ -899,6 +1065,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-721a2386c8d6ed2090674be890f866b807ef504cda527fb78bbfc7a4a4d8053d.bin"
     },
     {
@@ -910,6 +1078,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-b00c1164518dc57759dab617dde8ac3a1ed8c88fe7c1ba3fc0a3729091c21fe5.bin"
     },
     {
@@ -921,6 +1091,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-8cf740ab6585b2b6f047a5e7e87acb0c3b962745b5317876ead93e584ba60e97.bin"
     },
     {
@@ -932,6 +1104,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-3ce5a9ce75066961b7fa5382692bb1387cc3536cc984b064ab7d70b97f3c674c.bin"
     },
     {
@@ -943,6 +1117,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-825180ce17bc012fb450653b14df9f32479dcdd073fc3f133bb47462f5a63cec.bin"
     },
     {
@@ -953,6 +1129,8 @@
         "full",
         "lite"
       ],
+      "side": "client",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e7cfef3eb16d5b73c00915a5f2b820d66555c23d13e0636125d7b07384a443e4.bin"
     },
     {
@@ -964,6 +1142,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e47e08397078ad152a61fb95a5dfd4f86f3a3b8b21b131025d3adbfe96538c3a.bin"
     },
     {
@@ -975,6 +1155,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c0187ee299527ac7a3e0b1e83601dcdc0de631e286fe41e6be1a75958ea8e443.bin"
     },
     {
@@ -986,6 +1168,8 @@
         "lite",
         "android"
       ],
+      "side": "client",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-86ef8a23a5bc8f86d67ed37f3a93380d3946bad64123b22862ed057e7b624efd.bin"
     },
     {
@@ -997,6 +1181,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c7cf09f4b2e9972a446ba1b673b464f0b5535f2d1860f08891730dd2a8b82b9e.bin"
     },
     {
@@ -1008,6 +1194,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-2716eea90d438f63731891e76499303f592108f84732c4acfe366fdfbb943caa.bin"
     },
     {
@@ -1017,6 +1205,8 @@
       "profiles": [
         "full"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-8c6bb7897bf53e3207a2ca4fc26db55471990b605855f494c2d80bfcabd1ed3b.bin"
     },
     {
@@ -1028,6 +1218,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-f895e4983846ab538cb0210f6626ce0b437f3a90c1e716ad78f18c6facd134f7.bin"
     },
     {
@@ -1039,6 +1231,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-4ebbdc54e3463e582f48901e8baecd28fc45542cdc946b73a64a9d317c48a5e9.bin"
     },
     {
@@ -1050,6 +1244,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-f63f5916cea9e2daa0c36f8d420c593476b963177c91e866114ff79fe596072e.bin"
     },
     {
@@ -1061,6 +1257,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-46f851d7d04376a9489bb585788bf53be8fc20542cae95e908e2861c5e4db789.bin"
     },
     {
@@ -1072,6 +1270,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-9bbaf0ac9376d41e0fdce1fd07aab1a3611e192b983b427b078dccbfb8675aa3.bin"
     },
     {
@@ -1083,6 +1283,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e5bd96b1b74aad41588acc078e7385ca72f66a862aae47adda3d55b44c1d5ba8.bin"
     },
     {
@@ -1094,6 +1296,8 @@
         "lite",
         "full"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-92951d3be475a0433f8ef508439730723e2e901dd1e3b2509c29205031d4eb51.bin"
     },
     {
@@ -1105,6 +1309,8 @@
         "android",
         "full"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-30f57e31cc3ca5e84e043a72e1865edcfb4d84798a586a28f70cecac0cab6b3c.bin"
     },
     {
@@ -1116,6 +1322,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-93064c5aff85bf5e6385470f311fd1c7de172f58b02fefb1d2920db76f8cd8b5.bin"
     },
     {
@@ -1127,6 +1335,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e0fe982ef34b9fcfba2c22dbb748a3807f173d6a6265cc5365ab3c7914db4188.bin"
     },
     {
@@ -1138,6 +1348,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-679aac13306033fe0772a3b2e5fc7c1a898a34b3a9a46381e4233d9129157ed4.bin"
     },
     {
@@ -1149,6 +1361,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c5baa07f405433f62218fc3916360d4cda37558d01d493df7a618ac7d78d22c1.bin"
     },
     {
@@ -1160,6 +1374,8 @@
         "lite",
         "android"
       ],
+      "side": "client",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-42380961a313ac77ce62d223b2f59b3375f5c5a3507cd033d712ea6127cef78e.bin"
     },
     {
@@ -1168,8 +1384,11 @@
       "size": 1297761,
       "profiles": [
         "full",
-        "lite"
+        "lite",
+        "android"
       ],
+      "side": "client",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e04599514d88e41765f710eeba59e3814909833396bc11b977f48fc2e7e50353.bin"
     },
     {
@@ -1181,6 +1400,8 @@
         "android",
         "lite"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c95b3e17e45a8114a5f70dd2238c8a0791d3823f09078b0d09a7b361fafc9763.bin"
     },
     {
@@ -1192,6 +1413,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-54c1aa9b903f5dfdccfb80e6f2c88cb98147f45650b66e3a8a9d04a5f23e46b3.bin"
     },
     {
@@ -1203,6 +1426,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-63a29f2acf4be2c5ca89a81a046c1100111ad2865d9638f638e27ca161e7211c.bin"
     },
     {
@@ -1214,6 +1439,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-dcabaadeb3402c2ab98ccc179ce8c2ba5d05c27cd73661fe8fc4c8204d481891.bin"
     },
     {
@@ -1225,6 +1452,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-44664d5d6cc711eab645133b85306e0ccbbd59a6c98f6b3464c9f9cd8b4fbef7.bin"
     },
     {
@@ -1236,6 +1465,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-5f2d25306abfed8c6c6291e8904ae1a9f6a8ab4f1bf5f3a21f7e263a5bf217a6.bin"
     },
     {
@@ -1247,6 +1478,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-1aa417fffd5618db83e5808f9eed93a2dbf0e3b8622630fc6f46fdfad21915b8.bin"
     },
     {
@@ -1258,6 +1491,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-8b543704a0d31dc7d461703b1ddfc09fb36057c6770a0ea1aa60b850feaf8517.bin"
     },
     {
@@ -1269,6 +1504,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-349fd2aa8930b232050ee5304db55e4ef738b017971afe7c84acd589a95fda2f.bin"
     },
     {
@@ -1280,6 +1517,8 @@
         "android",
         "full"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-dfbb7e5a09f371be14fd59fbb2fc8bf47f4eae5c03e9687017635fc08c973dea.bin"
     },
     {
@@ -1291,6 +1530,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-9216d1ec3125221c8f27c4180266fb3b05ebd85b6ad173abe307a2bf9261b7c1.bin"
     },
     {
@@ -1302,6 +1543,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c25fee08e90ed8d28d2a0051f892bae28e1d6d8522c523131bd7dcbef9bcd0a8.bin"
     },
     {
@@ -1312,6 +1555,8 @@
         "full",
         "lite"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-85342f8f7c098e98f2f200fbba308a243af1204cb1afd7668360420e635aa2f8.bin"
     },
     {
@@ -1322,6 +1567,8 @@
         "lite",
         "full"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-cd6109af335ad83af9e97cdae5c25023112349e2dc4df95a97640022f38b3856.bin"
     },
     {
@@ -1333,6 +1580,8 @@
         "lite",
         "android"
       ],
+      "side": "both",
+      "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-acabdfd540ef0aad27eabddff90aa7a39b64fa148e45c3cd834455454122657a.bin"
     }
   ]
