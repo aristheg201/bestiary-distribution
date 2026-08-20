@@ -9,10 +9,10 @@
       "releaseNotes": "Sửa lifecycle/process tree để đóng Launcher không còn process zombie, second-instance restore/focus cửa sổ hiện có, scrollbar desktop và áp dụng keybind policy DEFAULT/LOCKED từ Manager."
     },
     "manager": {
-      "version": "6.3.1",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/manager-v6.3.1/BestiaryPackManager-Setup-6.3.1.exe",
-      "sha256": "88953360b35da2afeb43585ac0fec66f9314663efaf9400f8857c089e2df186e",
-      "releaseNotes": "Keybind Manager tự quét các key_* trực tiếp từ options.txt. DEFAULT bám giá trị thực tế, LOCKED giữ giá trị quản trị đặt; không ghi đè FOV, âm lượng, đồ họa, ngôn ngữ hay option không liên quan."
+      "version": "6.3.2",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/manager-v6.3.2/BestiaryPackManager-Setup-6.3.2.exe",
+      "sha256": "e32cc443f6e1681476d1ff91ee1a3669c862f0aa1060a0692efa7789c10aaf21",
+      "releaseNotes": "Sửa Keybind Manager: chọn hoặc kéo options.txt thật từ Minecraft instance thay vì giả định file nằm trong workspace. Manager ghi nhớ nguồn cục bộ, tự quét lại các key_*, giữ DEFAULT/LOCKED và bỏ tạo/xóa action thủ công. Không publish đường dẫn máy quản trị hay các setting Minecraft không liên quan."
     },
     "android": {
       "version": "1.0.4",
