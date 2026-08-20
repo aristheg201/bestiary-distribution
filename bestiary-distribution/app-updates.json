@@ -3,10 +3,10 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.3.8",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.8/BestiaryLauncher-Setup-5.3.8.exe",
-      "sha256": "a0facf7ac1e300ed9a7a902f04196630b152941ce39a57fbac16e7a0919e36b0",
-      "releaseNotes": "Sửa Microsoft mode không nhận RAM/JVM của Bestiary. Trước khi mở Minecraft Launcher chính thức, Bestiary giờ đồng bộ RAM tối thiểu/tối đa và JVM flags đã lưu vào đúng installation Bestiary Rebirth. Không sửa các profile Minecraft khác và không đọc/ghi credential của Minecraft Launcher."
+      "version": "5.3.9",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.9/BestiaryLauncher-Setup-5.3.9.exe",
+      "sha256": "0d1aa31c314bb938faedd50a77597887223fee7a3131f96b981c56a7fd2d6d50",
+      "releaseNotes": "Adaptive JVM generator mới theo mô hình memory budget + G1GC coherent học từ UltraServers/Aikar nhưng được chỉnh cho Minecraft client Java 21. Máy khoảng 4 GB dùng ~2 GB heap, 6 GB ~3 GB, 8 GB ~4 GB; GC threads và young generation thay đổi theo RAM/CPU. Generate giờ lưu RAM + JVM thành một profile, tự migrate cấu hình quá nặng trên máy 4-6 GB và Microsoft mode tiếp tục đồng bộ cùng profile sang Minecraft Launcher chính thức."
     },
     "manager": {
       "version": "6.3.2",
