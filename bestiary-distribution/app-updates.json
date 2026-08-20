@@ -4,9 +4,9 @@
   "products": {
     "launcher": {
       "version": "5.3.7",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.7/BestiaryLauncher-Setup-5.3.7.exe",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.7-r1/BestiaryLauncher-Setup-5.3.7.exe",
       "sha256": "7b4f8c36889620a6406558f33e942fe69052d3fbf8015db9533f52e7c4ce053e",
-      "releaseNotes": "Sửa lifecycle/process tree để đóng Launcher không còn process zombie, second-instance restore/focus cửa sổ hiện có, scrollbar desktop và áp dụng keybind policy DEFAULT/LOCKED từ Manager."
+      "releaseNotes": "Sửa lifecycle/process tree để đóng Launcher không còn process zombie, second-instance restore/focus cửa sổ hiện có, scrollbar desktop và áp dụng keybind policy DEFAULT/LOCKED từ Manager. Installer 5.3.7 được republish từ đúng artifact CI đã verify dưới URL mới để tránh asset cũ bị lệch SHA/cache."
     },
     "manager": {
       "version": "6.3.2",
