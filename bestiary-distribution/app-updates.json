@@ -3,10 +3,10 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.3.9",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.3.9/BestiaryLauncher-Setup-5.3.9.exe",
-      "sha256": "0d1aa31c314bb938faedd50a77597887223fee7a3131f96b981c56a7fd2d6d50",
-      "releaseNotes": "Adaptive JVM generator mới theo mô hình memory budget + G1GC coherent học từ UltraServers/Aikar nhưng được chỉnh cho Minecraft client Java 21. Máy khoảng 4 GB dùng ~2 GB heap, 6 GB ~3 GB, 8 GB ~4 GB; GC threads và young generation thay đổi theo RAM/CPU. Generate giờ lưu RAM + JVM thành một profile, tự migrate cấu hình quá nặng trên máy 4-6 GB và Microsoft mode tiếp tục đồng bộ cùng profile sang Minecraft Launcher chính thức."
+      "version": "5.4.0",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.0/BestiaryLauncher-Setup-5.4.0.exe",
+      "sha256": "b4c0274fb5c2827cb7dce4a9340911535d41d8eff4e2b1831f8f08d5106cde5a",
+      "releaseNotes": "Mojang đã duyệt Application ID của Bestiary Launcher cho Java Edition Game Services. Microsoft mode giờ dùng luồng đăng nhập trực tiếp của Bestiary: Device Code OAuth với XboxLive.signin/offline_access, Xbox Live + XSTS, kiểm tra quyền sở hữu Minecraft Java, lấy Minecraft profile và launch game với phiên xác thực chính chủ. Tài khoản Microsoft đã đăng nhập từ các bản bridge trước khi được duyệt cần đăng xuất rồi đăng nhập lại một lần để cấp game scope. Local/offline mode vẫn tách riêng. Toàn bộ adaptive JVM, lifecycle, keybind, updater và client sync của 5.3.9 được giữ nguyên."
     },
     "manager": {
       "version": "6.3.2",
