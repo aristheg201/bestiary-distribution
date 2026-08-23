@@ -3,10 +3,10 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.4.1",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.1/BestiaryLauncher-Setup-5.4.1.exe",
-      "sha256": "177a1e18bbedc75cfeccd2c3b195217dae5c6e652a65cb12c6c4ae08ada5a38c",
-      "releaseNotes": "Sửa regression Microsoft direct launch của 5.4.0. Khi Mojang-approved Game Services đang bật, tài khoản Microsoft giờ launch Minecraft Java trực tiếp từ Bestiary bằng luồng Xbox Live + XSTS + Minecraft Services, không chuyển sang Minecraft Launcher chính thức nữa. Official Minecraft Launcher chỉ còn là fallback khi microsoftDirectLaunch bị tắt. Tài khoản đã đăng nhập từ thời identity/bridge cũ cần đăng xuất Microsoft rồi đăng nhập lại một lần để cấp XboxLive.signin game scope. Adaptive JVM, lifecycle, keybind, updater và client sync vẫn được giữ nguyên."
+      "version": "5.4.2",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.2/BestiaryLauncher-Setup-5.4.2.exe",
+      "sha256": "430e4c5e08e6635981147e2fe58d9093a360dcef80b8f0b00b3da38f6c084e51",
+      "releaseNotes": "Sửa dứt điểm routing Microsoft direct launch. Microsoft mode luôn dùng XboxLive.signin + Xbox/XSTS + Minecraft Services, lấy MinecraftAuthorization rồi truyền trực tiếp vào minecraft-launcher-core trước khi spawn Java. Official Minecraft Launcher bridge bị khóa mặc định và không còn được chọn bởi remote/cache flag cũ. Tài khoản Microsoft từng đăng nhập ở thời identity/bridge cần đăng xuất rồi đăng nhập lại một lần để cấp quyền Minecraft."
     },
     "manager": {
       "version": "6.3.2",
