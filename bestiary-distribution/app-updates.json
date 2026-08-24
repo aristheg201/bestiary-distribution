@@ -3,10 +3,10 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.4.2",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.2/BestiaryLauncher-Setup-5.4.2.exe",
-      "sha256": "430e4c5e08e6635981147e2fe58d9093a360dcef80b8f0b00b3da38f6c084e51",
-      "releaseNotes": "Sửa dứt điểm routing Microsoft direct launch. Microsoft mode luôn dùng XboxLive.signin + Xbox/XSTS + Minecraft Services, lấy MinecraftAuthorization rồi truyền trực tiếp vào minecraft-launcher-core trước khi spawn Java. Official Minecraft Launcher bridge bị khóa mặc định và không còn được chọn bởi remote/cache flag cũ. Tài khoản Microsoft từng đăng nhập ở thời identity/bridge cần đăng xuất rồi đăng nhập lại một lần để cấp quyền Minecraft."
+      "version": "5.4.3",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.3/BestiaryLauncher-Setup-5.4.3.exe",
+      "sha256": "05cf27067e05a3eee9bbb2671a6a2fd016d09081ec4a65c1ea7d61438c7a0e83",
+      "releaseNotes": "Sửa lỗi launcher trên Windows đóng xong không mở lại được. Dọn single-instance lifecycle, khôi phục hoặc tạo lại cửa sổ khi mở lần hai và buộc launcher thoát hẳn khi đóng cửa sổ cuối."
     },
     "manager": {
       "version": "6.3.2",
