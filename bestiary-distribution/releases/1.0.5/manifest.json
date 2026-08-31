@@ -1,6 +1,6 @@
 {
   "version": "1.0.5",
-  "timestamp": 1787497980781,
+  "timestamp": 1788184781363,
   "minecraft": {
     "version": "1.21.1",
     "loader": "fabric",
@@ -13,32 +13,32 @@
       "description": "Đầy đủ nội dung và hiệu ứng Bestiary.",
       "minimumRamMb": 6144,
       "recommendedRamMb": 8192,
-      "fileCount": 122,
-      "totalBytes": 509805219
+      "fileCount": 123,
+      "totalBytes": 509954350
     },
     "lite": {
       "name": "Lite",
       "description": "Nhẹ hơn, ưu tiên FPS và thời gian tải.",
       "minimumRamMb": 3072,
       "recommendedRamMb": 4096,
-      "fileCount": 116,
-      "totalBytes": 482943138
+      "fileCount": 117,
+      "totalBytes": 483092269
     },
     "android": {
       "name": "Android",
       "description": "Bộ mod dành riêng cho Bestiary Launcher Android / Pojav.",
       "minimumRamMb": 3072,
       "recommendedRamMb": 4096,
-      "fileCount": 110,
-      "totalBytes": 475681082
+      "fileCount": 111,
+      "totalBytes": 475830213
     },
     "server": {
       "name": "Server",
       "description": "Mod bắt buộc hoặc được phép chạy trên dedicated server.",
       "minimumRamMb": 0,
       "recommendedRamMb": 0,
-      "fileCount": 0,
-      "totalBytes": 0
+      "fileCount": 1,
+      "totalBytes": 140164
     }
   },
   "files": [
@@ -1055,9 +1055,9 @@
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-1d47dab86cee6d68e0887ec5e14deee125d3e2ea92c5ecedbb57f8f60aafa709.bin"
     },
     {
-      "path": "mods/kantonpcs-1.0.5-svframe-menu-pathfinding.jar",
-      "hash": "8c972ffa73d9fcd0f9dc88c77d4ec5bdf72c07ddbc7233686b76ecf307530a24",
-      "size": 1817402,
+      "path": "mods/kantonpcs-1.0.5-svframe-guide-pathing-fixed.jar",
+      "hash": "bf47074e4aa4141ab2f0755b7238fced77d76e510e1aea3dcd7633f46ad407cc",
+      "size": 1826369,
       "profiles": [
         "full",
         "lite",
@@ -1065,7 +1065,7 @@
       ],
       "side": "both",
       "androidCompatibility": "auto",
-      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-8c972ffa73d9fcd0f9dc88c77d4ec5bdf72c07ddbc7233686b76ecf307530a24.bin"
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-bf47074e4aa4141ab2f0755b7238fced77d76e510e1aea3dcd7633f46ad407cc.bin"
     },
     {
       "path": "mods/lithium-fabric-0.15.4+mc1.21.1.jar",
@@ -1466,6 +1466,20 @@
       "side": "both",
       "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-2fefc1e62061cad97f4239d0047a6a9103e3eac02b09f60311b58385e03ee3ec.bin"
+    },
+    {
+      "path": "mods/SVQuest-0.1.0-beta.1.jar",
+      "hash": "f247fb52aae374310dba6de8cb31cefe7ce74a223674b33d4504a4a2518ba712",
+      "size": 140164,
+      "profiles": [
+        "full",
+        "lite",
+        "server",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-f247fb52aae374310dba6de8cb31cefe7ce74a223674b33d4504a4a2518ba712.bin"
     },
     {
       "path": "mods/tbcs-fabric-1.21.1-0.14.1-beta.jar",
