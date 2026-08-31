@@ -1,0 +1,1612 @@
+{
+  "version": "1.0.7-alpha",
+  "timestamp": 1788209179277,
+  "minecraft": {
+    "version": "1.21.1",
+    "loader": "fabric",
+    "loaderVersion": "0.18.4",
+    "javaMajor": 21
+  },
+  "profiles": {
+    "full": {
+      "name": "Full",
+      "description": "Đầy đủ nội dung và hiệu ứng Bestiary.",
+      "minimumRamMb": 6144,
+      "recommendedRamMb": 8192,
+      "fileCount": 122,
+      "totalBytes": 509814186
+    },
+    "lite": {
+      "name": "Lite",
+      "description": "Nhẹ hơn, ưu tiên FPS và thời gian tải.",
+      "minimumRamMb": 3072,
+      "recommendedRamMb": 4096,
+      "fileCount": 116,
+      "totalBytes": 482952105
+    },
+    "android": {
+      "name": "Android",
+      "description": "Bộ mod dành riêng cho Bestiary Launcher Android / Pojav.",
+      "minimumRamMb": 3072,
+      "recommendedRamMb": 4096,
+      "fileCount": 110,
+      "totalBytes": 475690049
+    },
+    "server": {
+      "name": "Server",
+      "description": "Mod bắt buộc hoặc được phép chạy trên dedicated server.",
+      "minimumRamMb": 0,
+      "recommendedRamMb": 0,
+      "fileCount": 0,
+      "totalBytes": 0
+    }
+  },
+  "files": [
+    {
+      "path": "config/bestiary-keybinds.json",
+      "hash": "2bdcdfabdae025d2303550b4cb396178d1e60a8118347b44edad03f35ed252ed",
+      "size": 38321,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-2bdcdfabdae025d2303550b4cb396178d1e60a8118347b44edad03f35ed252ed.bin"
+    },
+    {
+      "path": "mods/accessories_compat_layer-fabric-0.1.12+1.21.1.jar",
+      "hash": "c77c281616618ee51bb4f9bced4708be6d1baa690b3e8564a68d04df9f080980",
+      "size": 398321,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c77c281616618ee51bb4f9bced4708be6d1baa690b3e8564a68d04df9f080980.bin"
+    },
+    {
+      "path": "mods/accessories-fabric-1.1.0-beta.53+1.21.1.jar",
+      "hash": "51e6f6d52cb2523199ad36e5bc04802230f86904c35ac3dbf36e59c86b2c30d1",
+      "size": 1095802,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-51e6f6d52cb2523199ad36e5bc04802230f86904c35ac3dbf36e59c86b2c30d1.bin"
+    },
+    {
+      "path": "mods/appleskin-fabric-mc1.21-3.0.6.jar",
+      "hash": "9a19cec1294b1bc708392a08e6926dcb85d7378ec5ad909a4b6fcb8bc3bfeaa2",
+      "size": 1082585,
+      "profiles": [
+        "full"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-9a19cec1294b1bc708392a08e6926dcb85d7378ec5ad909a4b6fcb8bc3bfeaa2.bin"
+    },
+    {
+      "path": "mods/architectury-13.0.11-fabric.jar",
+      "hash": "ab17d5c7d8d8c93cc713437ed426f0ff0d6f802a48fff0c579a9bd3aaa833efd",
+      "size": 600921,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-ab17d5c7d8d8c93cc713437ed426f0ff0d6f802a48fff0c579a9bd3aaa833efd.bin"
+    },
+    {
+      "path": "mods/athena-fabric-1.21.1-4.0.6.jar",
+      "hash": "e17aad84c690ac4e46300a4180b3ae4077ffa4f526dbc82d117afbbff4ee83e4",
+      "size": 88425,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "client",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e17aad84c690ac4e46300a4180b3ae4077ffa4f526dbc82d117afbbff4ee83e4.bin"
+    },
+    {
+      "path": "mods/azurelib-fabric-1.21.1-3.1.11.jar",
+      "hash": "579fd01922e731666c07acda4168272a842e25f5524f4dd04f5ed57b0a06b7fb",
+      "size": 892447,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-579fd01922e731666c07acda4168272a842e25f5524f4dd04f5ed57b0a06b7fb.bin"
+    },
+    {
+      "path": "mods/azurelibarmor-fabric-1.21.1-3.1.3.jar",
+      "hash": "dc402d74bcea0523df6379e45dd39e0eced8550dc582fc6d005990effc28675d",
+      "size": 583035,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-dc402d74bcea0523df6379e45dd39e0eced8550dc582fc6d005990effc28675d.bin"
+    },
+    {
+      "path": "mods/bettercombat-fabric-2.4.0+1.21.1.jar",
+      "hash": "2ecd3284a4443300873bb7a7aba4643aacf91acd778b377faeffa44afe049b9b",
+      "size": 930023,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-2ecd3284a4443300873bb7a7aba4643aacf91acd778b377faeffa44afe049b9b.bin"
+    },
+    {
+      "path": "mods/bundle-api-fabric-1.1.0.jar",
+      "hash": "967fea12fca27ec1243af8bbb71d9c9d556591385496192f8e9a9a36d1298eba",
+      "size": 63338,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-967fea12fca27ec1243af8bbb71d9c9d556591385496192f8e9a9a36d1298eba.bin"
+    },
+    {
+      "path": "mods/camerautils-fabric-1.21.1-1.0.16.jar",
+      "hash": "ad1a1a47accca759fbaa7ec5a1f49501fdda40152139fb1d79392c3192b705eb",
+      "size": 351542,
+      "profiles": [
+        "full",
+        "lite"
+      ],
+      "side": "client",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-ad1a1a47accca759fbaa7ec5a1f49501fdda40152139fb1d79392c3192b705eb.bin"
+    },
+    {
+      "path": "mods/cardinal-components-api-6.1.3.jar",
+      "hash": "302a8a4bc2e34cbffaf61af75ab5de47c06bfa159436665870ae61092b0f69a2",
+      "size": 229645,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-302a8a4bc2e34cbffaf61af75ab5de47c06bfa159436665870ae61092b0f69a2.bin"
+    },
+    {
+      "path": "mods/chipped-fabric-1.21.1-4.0.2.jar",
+      "hash": "1721c94365fd8d2d3c3fdcac7efbfd7e605daa7dfb8adc4c126c5bbde2820c79",
+      "size": 15016830,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-1721c94365fd8d2d3c3fdcac7efbfd7e605daa7dfb8adc4c126c5bbde2820c79.bin"
+    },
+    {
+      "path": "mods/cloth-config-15.0.140-fabric.jar",
+      "hash": "33894e95da3af59014b39d126586d5241e07ea39f8618763e30dab637405f95f",
+      "size": 1157166,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "client",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-33894e95da3af59014b39d126586d5241e07ea39f8618763e30dab637405f95f.bin"
+    },
+    {
+      "path": "mods/cnpccobblemonaddon-fabric-1.0.0.jar",
+      "hash": "357eef17a51c7c558c5de582077a740c2876619d9024e621acf2512510cf4657",
+      "size": 214982,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-357eef17a51c7c558c5de582077a740c2876619d9024e621acf2512510cf4657.bin"
+    },
+    {
+      "path": "mods/cobblebadgesbox-1.1.1.jar",
+      "hash": "59caf9a1b16f983ebac2cd8ec4047073892b80abd7bee972c8dac0b5544c9b71",
+      "size": 164116,
+      "profiles": [
+        "full",
+        "android",
+        "lite"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-59caf9a1b16f983ebac2cd8ec4047073892b80abd7bee972c8dac0b5544c9b71.bin"
+    },
+    {
+      "path": "mods/cobbledollars_ticket-1.4.8.jar",
+      "hash": "70650b525f86ec058f69d584df416425cc191e2bdd8826e70976b8953931ba58",
+      "size": 311803,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-70650b525f86ec058f69d584df416425cc191e2bdd8826e70976b8953931ba58.bin"
+    },
+    {
+      "path": "mods/CobbleDollars-fabric-2.0.0+Beta-6.1+1.21.1.jar",
+      "hash": "a007523e2dd8c6f47edc914d33d26ad0a860a0124038e1ec6303a593a919c1b4",
+      "size": 500815,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-a007523e2dd8c6f47edc914d33d26ad0a860a0124038e1ec6303a593a919c1b4.bin"
+    },
+    {
+      "path": "mods/CobbleFurnies-fabric-1.2.jar",
+      "hash": "c1230a58ca2369b973bfade68a0ffcac86ffcbf9dd2a845999ed8c5348bfef93",
+      "size": 2337235,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c1230a58ca2369b973bfade68a0ffcac86ffcbf9dd2a845999ed8c5348bfef93.bin"
+    },
+    {
+      "path": "mods/cobblegachamachine-fabric-1.5.4-fabric.jar",
+      "hash": "a24e83284c7fb969aef6eecae435152f503b8e26b6f699f87caa3848877cb313",
+      "size": 359032,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-a24e83284c7fb969aef6eecae435152f503b8e26b6f699f87caa3848877cb313.bin"
+    },
+    {
+      "path": "mods/Cobblemon AFP 1.9.2-1.21.1-Fabric-NoGEB.jar",
+      "hash": "c73184e6d819f5fb5f4c79b762f32129ed0764a13b5a37e95f52cb65f09441f8",
+      "size": 8126710,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c73184e6d819f5fb5f4c79b762f32129ed0764a13b5a37e95f52cb65f09441f8.bin"
+    },
+    {
+      "path": "mods/cobblemon_additions-fabric-1.2.0.jar",
+      "hash": "c3b9c15cda40e8dccb0e4d54640038fb03da09c2bd1c9b1306b51fdfad9482a3",
+      "size": 28453,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c3b9c15cda40e8dccb0e4d54640038fb03da09c2bd1c9b1306b51fdfad9482a3.bin"
+    },
+    {
+      "path": "mods/cobblemon_battle_tower-fabric-1.10.22.jar",
+      "hash": "043ee6625cfdb796ee3c0d4210428fb2b93151d38a9fc97a1478488eb1f86f95",
+      "size": 52072177,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-043ee6625cfdb796ee3c0d4210428fb2b93151d38a9fc97a1478488eb1f86f95.bin"
+    },
+    {
+      "path": "mods/cobblemon_minimons-1.2.6.jar",
+      "hash": "515b30583657750a2c2bb90aa24196265ca93db4ed2a374e824a3e132c7036e7",
+      "size": 472330,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-515b30583657750a2c2bb90aa24196265ca93db4ed2a374e824a3e132c7036e7.bin"
+    },
+    {
+      "path": "mods/cobblemon_quests-reloaded-[1.21.1]-fabric-1.3.5.jar",
+      "hash": "ba455539cdbbe7faef292acef6caae7fa350210ea1d8fca60cdd7d2832dac3c8",
+      "size": 108113,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-ba455539cdbbe7faef292acef6caae7fa350210ea1d8fca60cdd7d2832dac3c8.bin"
+    },
+    {
+      "path": "mods/cobblemon_ranked-v1.4.2.jar",
+      "hash": "3b219c670ba24b729cfef58873e62f9347c4b7ebdc03110128051101ba69b9ef",
+      "size": 22022105,
+      "profiles": [
+        "full"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-3b219c670ba24b729cfef58873e62f9347c4b7ebdc03110128051101ba69b9ef.bin"
+    },
+    {
+      "path": "mods/cobblemon_smartphone-fabric-1.1.3.jar",
+      "hash": "b62a8bf3795f2fe74265184e3ba3b3f41474024f5f5ff24755cdeb2200d28537",
+      "size": 1497631,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-b62a8bf3795f2fe74265184e3ba3b3f41474024f5f5ff24755cdeb2200d28537.bin"
+    },
+    {
+      "path": "mods/Cobblemon-All-in-the-One-1.2-1.21.1-Fabric.jar",
+      "hash": "259ca763ef67c536882f91a8588fa198bef48a229190e0e759e51bc4980a0adb",
+      "size": 157022,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-259ca763ef67c536882f91a8588fa198bef48a229190e0e759e51bc4980a0adb.bin"
+    },
+    {
+      "path": "mods/cobblemon-armors-1.6.0+1.7.3.jar",
+      "hash": "5f5c4875fd1ad4cc8f6c17976d7fc25c24c82f3f0b2fb24e47bd4a63addfbff8",
+      "size": 17527670,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-5f5c4875fd1ad4cc8f6c17976d7fc25c24c82f3f0b2fb24e47bd4a63addfbff8.bin"
+    },
+    {
+      "path": "mods/cobblemon-battle-extras-fabric-1.13.45.jar",
+      "hash": "099c3dafd5c7d29e8d91f954a9598565fdd07dac235bb9c49ab305d9af37f826",
+      "size": 1515972,
+      "profiles": [
+        "full",
+        "lite"
+      ],
+      "side": "client",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-099c3dafd5c7d29e8d91f954a9598565fdd07dac235bb9c49ab305d9af37f826.bin"
+    },
+    {
+      "path": "mods/cobblemon-economy-0.0.17.jar",
+      "hash": "ee163479a15a8a8549b876f35e54bc0287a542f014a23384d023a47a86b80a08",
+      "size": 15201395,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-ee163479a15a8a8549b876f35e54bc0287a542f014a23384d023a47a86b80a08.bin"
+    },
+    {
+      "path": "mods/cobblemon-eldorias-fakemon-1.1.2.jar",
+      "hash": "9031d53a1d0a608ad6a5b921169babe4537ee2f5f442e09cb26626c186d9af1f",
+      "size": 710688,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-9031d53a1d0a608ad6a5b921169babe4537ee2f5f442e09cb26626c186d9af1f.bin"
+    },
+    {
+      "path": "mods/cobblemon-expeditions-fabric-1.6.1.jar",
+      "hash": "14150805971b094ce4fe68d970891e4cad574d13c36ad6bae4648ec049a4d687",
+      "size": 746645,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-14150805971b094ce4fe68d970891e4cad574d13c36ad6bae4648ec049a4d687.bin"
+    },
+    {
+      "path": "mods/Cobblemon-fabric-1.7.3+1.21.1.jar",
+      "hash": "f7c25955176badc444ad6211fc556514fedbdba776227f105fe899f8819d74e3",
+      "size": 135801550,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-f7c25955176badc444ad6211fc556514fedbdba776227f105fe899f8819d74e3.bin"
+    },
+    {
+      "path": "mods/cobblemon-leaderboards-fabric-2.1-fixed.jar",
+      "hash": "70d42f707298c690f6552da77a65c73da86956d3e81667af0ef280851f5e8189",
+      "size": 1526477,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-70d42f707298c690f6552da77a65c73da86956d3e81667af0ef280851f5e8189.bin"
+    },
+    {
+      "path": "mods/cobblemon-perfect-partners-fabric-1.2.1.jar",
+      "hash": "b73f932c5e9f20eec28147c5113b28f15d92b77131fdce2f591d34518d7be709",
+      "size": 753211,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-b73f932c5e9f20eec28147c5113b28f15d92b77131fdce2f591d34518d7be709.bin"
+    },
+    {
+      "path": "mods/cobblemon-trainer-battle-1.11.11+1.7.3.jar",
+      "hash": "e8116c17b922f99485d71024d42e36237fa3d2c63ce39e7eec2e6ac05a2e92e6",
+      "size": 12739004,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e8116c17b922f99485d71024d42e36237fa3d2c63ce39e7eec2e6ac05a2e92e6.bin"
+    },
+    {
+      "path": "mods/Cobblemon-Utility+-fabric-1.7.4 no recipes.jar",
+      "hash": "bdba79e6e0966bde6785d6d58559992e8c18c337faecbfa760600b86a49f453e",
+      "size": 161075,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-bdba79e6e0966bde6785d6d58559992e8c18c337faecbfa760600b86a49f453e.bin"
+    },
+    {
+      "path": "mods/cobblemonarmory-1.5.4-fabric-1.21.1.jar",
+      "hash": "657e684836dc2aea6a947706a0b12eb94a99d07c1023099797d96ad12806577d",
+      "size": 920690,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-657e684836dc2aea6a947706a0b12eb94a99d07c1023099797d96ad12806577d.bin"
+    },
+    {
+      "path": "mods/cobblemonbattleplus-1.1.7.jar",
+      "hash": "0622532b75126b9d7ecd2b18b64bf62774ba52a5510ef1a1ffa527404682801f",
+      "size": 1375640,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-0622532b75126b9d7ecd2b18b64bf62774ba52a5510ef1a1ffa527404682801f.bin"
+    },
+    {
+      "path": "mods/CobblemonExtraBalls-fabric-1.3.1-SNAPSHOT.jar",
+      "hash": "f44a33ac96f47a9eb02d48f148eb2cab3876e98053100e9e05530718ec087222",
+      "size": 1640390,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-f44a33ac96f47a9eb02d48f148eb2cab3876e98053100e9e05530718ec087222.bin"
+    },
+    {
+      "path": "mods/cobblemonintegrations-fabric-1.21.1-1.1.6.jar",
+      "hash": "d070f29970e39c77da578c05c762bbec093fe796b3ea82bafe79012df4268c12",
+      "size": 373321,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-d070f29970e39c77da578c05c762bbec093fe796b3ea82bafe79012df4268c12.bin"
+    },
+    {
+      "path": "mods/CobblemonMapKitMod-1.0.8-SNAPSHOT.jar",
+      "hash": "554697343ec91aab16e7c6a6d09538be0a0929fc552867dfc446422da064f813",
+      "size": 36139311,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-554697343ec91aab16e7c6a6d09538be0a0929fc552867dfc446422da064f813.bin"
+    },
+    {
+      "path": "mods/cobblemonminigames-fabric-3.0.2.jar",
+      "hash": "dae6c391bc030e709d9a0c430aa395d9d6c1fb0db49ff29ccc61c119f0ee82fe",
+      "size": 7358127,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-dae6c391bc030e709d9a0c430aa395d9d6c1fb0db49ff29ccc61c119f0ee82fe.bin"
+    },
+    {
+      "path": "mods/cobblemonpartsrefabricated-1.0.1.jar",
+      "hash": "75b1675aebf1805d9dcb3e3a3cb127bb3bea10d99493872ae6e242813b8a6538",
+      "size": 206841,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-75b1675aebf1805d9dcb3e3a3cb127bb3bea10d99493872ae6e242813b8a6538.bin"
+    },
+    {
+      "path": "mods/cobblemonraiddens-fabric-0.11.6+1.21.1.jar",
+      "hash": "98f1c1125cb56ca6f5f31489f7505bb22cb3ac09c6b5b3d33043fb5904afea2d",
+      "size": 2691020,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-98f1c1125cb56ca6f5f31489f7505bb22cb3ac09c6b5b3d33043fb5904afea2d.bin"
+    },
+    {
+      "path": "mods/cobblemonresearchtasks-2.0.jar",
+      "hash": "32f59c17b9941de43547d0d042d665a83fdfdbe1c09b6d52db1a1284cd487fc8",
+      "size": 1345922,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-32f59c17b9941de43547d0d042d665a83fdfdbe1c09b6d52db1a1284cd487fc8.bin"
+    },
+    {
+      "path": "mods/CobblemonSizeVariationFabric-1.4.0+1.7.0.jar",
+      "hash": "2bad8880081c07ad2fcb68cca6fb0904e6887fe7286ada759ec0023698ebb8d6",
+      "size": 97158,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-2bad8880081c07ad2fcb68cca6fb0904e6887fe7286ada759ec0023698ebb8d6.bin"
+    },
+    {
+      "path": "mods/CobblemonTrialsEdition-fabric-2.0.0-SVF-TICK-OPT.jar",
+      "hash": "459dd0edbc17f6c8d74592a18228776aa101e9a1775f5d6a0789288a887d3b16",
+      "size": 272534,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-459dd0edbc17f6c8d74592a18228776aa101e9a1775f5d6a0789288a887d3b16.bin"
+    },
+    {
+      "path": "mods/cobblemore_lib-fabric-1.2.10.jar",
+      "hash": "7f48a2f6f702b37dafd8c6270f006e4e09177f36144fdefaa49901ed529d0be4",
+      "size": 713368,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-7f48a2f6f702b37dafd8c6270f006e4e09177f36144fdefaa49901ed529d0be4.bin"
+    },
+    {
+      "path": "mods/cobblenav-fabric-2.3.3.jar",
+      "hash": "e66eb486f5cfbeef2215910193eba0000c191bbf774fa59f3e0b955ce13cae45",
+      "size": 1090821,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e66eb486f5cfbeef2215910193eba0000c191bbf774fa59f3e0b955ce13cae45.bin"
+    },
+    {
+      "path": "mods/Cobblepedia-Fabric-0.7.1.jar",
+      "hash": "01b4bd3c1caffcb82aa509515bb21d84adffebed0ba2d4deadfa675c06768294",
+      "size": 8276577,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-01b4bd3c1caffcb82aa509515bb21d84adffebed0ba2d4deadfa675c06768294.bin"
+    },
+    {
+      "path": "mods/CraftTweaker-fabric-1.21.1-21.0.38.jar",
+      "hash": "0232ca9d69713f366eecec58838772848d969028b6bfe283cde86ac712ede361",
+      "size": 4178419,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-0232ca9d69713f366eecec58838772848d969028b6bfe283cde86ac712ede361.bin"
+    },
+    {
+      "path": "mods/CustomNPCs-Unofficial-Fabric-1.21.1.20260521.jar",
+      "hash": "f84db0d034b53dccb3d95cd7a1b1d1717105c20adb5164662dd42a8c5e3cf507",
+      "size": 13046471,
+      "profiles": [
+        "full",
+        "android",
+        "lite"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-f84db0d034b53dccb3d95cd7a1b1d1717105c20adb5164662dd42a8c5e3cf507.bin"
+    },
+    {
+      "path": "mods/cutscene-api-mc1.21.1-fabric-1.6.6.jar",
+      "hash": "c06e5eb1d2ba2859ffa19e3155c65933362032b31be0d10019b29b0e1941eabc",
+      "size": 280910,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c06e5eb1d2ba2859ffa19e3155c65933362032b31be0d10019b29b0e1941eabc.bin"
+    },
+    {
+      "path": "mods/Data_Anchor-fabric-1.21.1-2.0.0.16.jar",
+      "hash": "afe47cf9e3e112f9071cd9758d47eaced09c4ffa1d126657799c28e30c48bdbd",
+      "size": 126037,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-afe47cf9e3e112f9071cd9758d47eaced09c4ffa1d126657799c28e30c48bdbd.bin"
+    },
+    {
+      "path": "mods/entity_model_features-3.2.4-1.21-fabric.jar",
+      "hash": "3c3f800b4bf911a158435c36dac0cf4176bec36d837c0696fdfae39d7ec5f976",
+      "size": 565280,
+      "profiles": [
+        "full"
+      ],
+      "side": "client",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-3c3f800b4bf911a158435c36dac0cf4176bec36d837c0696fdfae39d7ec5f976.bin"
+    },
+    {
+      "path": "mods/entity_texture_features_1.21-fabric-7.1.jar",
+      "hash": "d1b54ad6fd34eaf7187fb62556f2c5cacdc2ea3023a6217e3b2d823285aea148",
+      "size": 745421,
+      "profiles": [
+        "full"
+      ],
+      "side": "client",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-d1b54ad6fd34eaf7187fb62556f2c5cacdc2ea3023a6217e3b2d823285aea148.bin"
+    },
+    {
+      "path": "mods/ExtraLib-3.0.12-1.21.1-Fabric.jar",
+      "hash": "4b813fac536cc1bb4151e308a95a9298d9bbf1ebc3b96361f372dc697d37fa29",
+      "size": 8083556,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-4b813fac536cc1bb4151e308a95a9298d9bbf1ebc3b96361f372dc697d37fa29.bin"
+    },
+    {
+      "path": "mods/ExtraQuests-1.7.0-1.21.1-Fabric.jar",
+      "hash": "175f3bffdf62453e5101e799a8f84f85375dddbc1326ef10f31b804ff7a5bbe8",
+      "size": 37178,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-175f3bffdf62453e5101e799a8f84f85375dddbc1326ef10f31b804ff7a5bbe8.bin"
+    },
+    {
+      "path": "mods/fabric-api-0.116.15+1.21.1.jar",
+      "hash": "a61a10f730ab8aa45ff42486ee65699e6e51c28a0c168deb161e7d4029473aa3",
+      "size": 2452718,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-a61a10f730ab8aa45ff42486ee65699e6e51c28a0c168deb161e7d4029473aa3.bin"
+    },
+    {
+      "path": "mods/fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar",
+      "hash": "34ccdacf13bb9351fe43ce61912c2e09b72364e43e787d36ba3d2d04dec75a52",
+      "size": 8076363,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-34ccdacf13bb9351fe43ce61912c2e09b72364e43e787d36ba3d2d04dec75a52.bin"
+    },
+    {
+      "path": "mods/Failskins 10.0.jar",
+      "hash": "0f6296ecc4cf5ff1042d508293299722fb2923bc2ce44bafcbcf63a0185b0aab",
+      "size": 33022206,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-0f6296ecc4cf5ff1042d508293299722fb2923bc2ce44bafcbcf63a0185b0aab.bin"
+    },
+    {
+      "path": "mods/fais-mythical-monstrosities-0.1.8.2.jar",
+      "hash": "623840962799852c289cbe86082e024f26767aedcd8c9641727a0a31d431aea9",
+      "size": 12407066,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-623840962799852c289cbe86082e024f26767aedcd8c9641727a0a31d431aea9.bin"
+    },
+    {
+      "path": "mods/FastItemFrames-v21.1.6-1.21.1-Fabric.jar",
+      "hash": "6d2bc477af0fd4f7cbff2a277ba9a49e50b13439d355277f28ed02528c02d3c1",
+      "size": 96210,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-6d2bc477af0fd4f7cbff2a277ba9a49e50b13439d355277f28ed02528c02d3c1.bin"
+    },
+    {
+      "path": "mods/fightorflight-fabric-0.10.9.jar",
+      "hash": "7eee034d17281b43324cbdcc41a3836b6c44a93798d40a608538ed12a72279c1",
+      "size": 1424525,
+      "profiles": [
+        "full",
+        "android",
+        "lite"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-7eee034d17281b43324cbdcc41a3836b6c44a93798d40a608538ed12a72279c1.bin"
+    },
+    {
+      "path": "mods/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+      "hash": "2e3a8f0e3bda85a7d722720e7ce879cbd9d028d9395c6fc224d329b3c982d9b1",
+      "size": 633065,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-2e3a8f0e3bda85a7d722720e7ce879cbd9d028d9395c6fc224d329b3c982d9b1.bin"
+    },
+    {
+      "path": "mods/ftb-library-fabric-2101.1.35.jar",
+      "hash": "73d0e241ac9465d9d1a1edc4c1691a9664d2f0890316df1ae6d4c9128c98c99b",
+      "size": 1434871,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-73d0e241ac9465d9d1a1edc4c1691a9664d2f0890316df1ae6d4c9128c98c99b.bin"
+    },
+    {
+      "path": "mods/ftb-quests-fabric-2101.1.33.jar",
+      "hash": "6bd404ab39c97dfd283eb7c2743ba254b81b4f1fa6b0a010b0ca9e0821559955",
+      "size": 1603821,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-6bd404ab39c97dfd283eb7c2743ba254b81b4f1fa6b0a010b0ca9e0821559955.bin"
+    },
+    {
+      "path": "mods/ftb-teams-fabric-2101.1.10.jar",
+      "hash": "bc398b9f7837447c701ed3cae2dffadb35270340d82abdb72e97265c3583386f",
+      "size": 298292,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-bc398b9f7837447c701ed3cae2dffadb35270340d82abdb72e97265c3583386f.bin"
+    },
+    {
+      "path": "mods/ftb-ultimine-fabric-2101.1.15.jar",
+      "hash": "7fe31bbc7193a90b500feed23c7dd689d501ae9bba4668b4a0926cb022373523",
+      "size": 176926,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-7fe31bbc7193a90b500feed23c7dd689d501ae9bba4668b4a0926cb022373523.bin"
+    },
+    {
+      "path": "mods/fzzy_config-0.7.6+1.21.jar",
+      "hash": "323dc065cc3aaeb7f908be7e5d31070a25d4188b433ed770a79700ef8f5e8f7d",
+      "size": 2365335,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-323dc065cc3aaeb7f908be7e5d31070a25d4188b433ed770a79700ef8f5e8f7d.bin"
+    },
+    {
+      "path": "mods/gachaskins-1.0.0.jar",
+      "hash": "6e22afd6dc5467e26de5628bec8604cf48c4365adf4809c3d805c8505f8cb903",
+      "size": 34050,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-6e22afd6dc5467e26de5628bec8604cf48c4365adf4809c3d805c8505f8cb903.bin"
+    },
+    {
+      "path": "mods/geckolib-fabric-1.21.1-4.8.4.jar",
+      "hash": "905df8858ed4aa3a5c2a845b7c83bf1e3274c348d8e623269e7e245a3e2e647d",
+      "size": 653722,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-905df8858ed4aa3a5c2a845b7c83bf1e3274c348d8e623269e7e245a3e2e647d.bin"
+    },
+    {
+      "path": "mods/GlitchCore-fabric-1.21.1-2.1.0.2.jar",
+      "hash": "9eb2eff5bec5e2084aa272522058001008c83e994babe4e31f9f87e92e21d986",
+      "size": 329237,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-9eb2eff5bec5e2084aa272522058001008c83e994babe4e31f9f87e92e21d986.bin"
+    },
+    {
+      "path": "mods/ImmediatelyFast-Fabric-1.6.12+1.21.1.jar",
+      "hash": "8140f98ef5aff0f9594762f93b405a92ee7afff2d8f02250e8380f72337c0a79",
+      "size": 337368,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "client",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-8140f98ef5aff0f9594762f93b405a92ee7afff2d8f02250e8380f72337c0a79.bin"
+    },
+    {
+      "path": "mods/IronChests-2.0.4.jar",
+      "hash": "1829b11371aa462bd3f5f7416fd5460fd2cd8642631921ae17bcd713a3476f54",
+      "size": 582972,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-1829b11371aa462bd3f5f7416fd5460fd2cd8642631921ae17bcd713a3476f54.bin"
+    },
+    {
+      "path": "mods/Jade-1.21.1-Fabric-15.10.6.jar",
+      "hash": "fb834cc77804a6f509690c54b4af56305ce7a7f3171f8616310710f0af1f673a",
+      "size": 740746,
+      "profiles": [
+        "full"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-fb834cc77804a6f509690c54b4af56305ce7a7f3171f8616310710f0af1f673a.bin"
+    },
+    {
+      "path": "mods/jei-1.21.1-fabric-19.27.0.336.jar",
+      "hash": "1d47dab86cee6d68e0887ec5e14deee125d3e2ea92c5ecedbb57f8f60aafa709",
+      "size": 1561528,
+      "profiles": [
+        "full",
+        "lite"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-1d47dab86cee6d68e0887ec5e14deee125d3e2ea92c5ecedbb57f8f60aafa709.bin"
+    },
+    {
+      "path": "mods/kantonpcs-1.0.5-svframe-guide-pathing-fixed.jar",
+      "hash": "bf47074e4aa4141ab2f0755b7238fced77d76e510e1aea3dcd7633f46ad407cc",
+      "size": 1826369,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-bf47074e4aa4141ab2f0755b7238fced77d76e510e1aea3dcd7633f46ad407cc.bin"
+    },
+    {
+      "path": "mods/lithium-fabric-0.15.4+mc1.21.1.jar",
+      "hash": "92329d98c57f5a22091a0adb509fdb1d60113a5602c708b799b13134bad13baa",
+      "size": 797454,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-92329d98c57f5a22091a0adb509fdb1d60113a5602c708b799b13134bad13baa.bin"
+    },
+    {
+      "path": "mods/lootr-fabric-1.21.1-1.11.38.124.jar",
+      "hash": "1a2856db255a02bc36996af7efef98b82cdd0e79c6bb1287defcb89ca3d58744",
+      "size": 1036841,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-1a2856db255a02bc36996af7efef98b82cdd0e79c6bb1287defcb89ca3d58744.bin"
+    },
+    {
+      "path": "mods/lootrmon-fabric-1.21.1-0.0.0.3.jar",
+      "hash": "b00c1164518dc57759dab617dde8ac3a1ed8c88fe7c1ba3fc0a3729091c21fe5",
+      "size": 107470,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-b00c1164518dc57759dab617dde8ac3a1ed8c88fe7c1ba3fc0a3729091c21fe5.bin"
+    },
+    {
+      "path": "mods/mega_showdown-fabric-1.9.5+1.7.3+1.21.1.jar",
+      "hash": "69b1a0ed9c3a3910b894ec2ba798f5ec6663ac09b80fbb202654b20918a5f328",
+      "size": 20085492,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-69b1a0ed9c3a3910b894ec2ba798f5ec6663ac09b80fbb202654b20918a5f328.bin"
+    },
+    {
+      "path": "mods/modernfix-fabric-5.25.1+mc1.21.1.jar",
+      "hash": "3ce5a9ce75066961b7fa5382692bb1387cc3536cc984b064ab7d70b97f3c674c",
+      "size": 471258,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-3ce5a9ce75066961b7fa5382692bb1387cc3536cc984b064ab7d70b97f3c674c.bin"
+    },
+    {
+      "path": "mods/owo-lib-0.12.15.4+1.21.jar",
+      "hash": "825180ce17bc012fb450653b14df9f32479dcdd073fc3f133bb47462f5a63cec",
+      "size": 1183559,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-825180ce17bc012fb450653b14df9f32479dcdd073fc3f133bb47462f5a63cec.bin"
+    },
+    {
+      "path": "mods/particle_core-0.3.3+1.21.jar",
+      "hash": "e7cfef3eb16d5b73c00915a5f2b820d66555c23d13e0636125d7b07384a443e4",
+      "size": 147812,
+      "profiles": [
+        "full",
+        "lite"
+      ],
+      "side": "client",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e7cfef3eb16d5b73c00915a5f2b820d66555c23d13e0636125d7b07384a443e4.bin"
+    },
+    {
+      "path": "mods/Patchouli-1.21.1-93-FABRIC.jar",
+      "hash": "e47e08397078ad152a61fb95a5dfd4f86f3a3b8b21b131025d3adbfe96538c3a",
+      "size": 861256,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e47e08397078ad152a61fb95a5dfd4f86f3a3b8b21b131025d3adbfe96538c3a.bin"
+    },
+    {
+      "path": "mods/placeholder-api-2.4.2+1.21.jar",
+      "hash": "c0187ee299527ac7a3e0b1e83601dcdc0de631e286fe41e6be1a75958ea8e443",
+      "size": 232325,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c0187ee299527ac7a3e0b1e83601dcdc0de631e286fe41e6be1a75958ea8e443.bin"
+    },
+    {
+      "path": "mods/player-animation-lib-fabric-2.0.4+1.21.1.jar",
+      "hash": "86ef8a23a5bc8f86d67ed37f3a93380d3946bad64123b22862ed057e7b624efd",
+      "size": 204541,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "client",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-86ef8a23a5bc8f86d67ed37f3a93380d3946bad64123b22862ed057e7b624efd.bin"
+    },
+    {
+      "path": "mods/pocketmorph-2.2.0.jar",
+      "hash": "c7cf09f4b2e9972a446ba1b673b464f0b5535f2d1860f08891730dd2a8b82b9e",
+      "size": 1337887,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c7cf09f4b2e9972a446ba1b673b464f0b5535f2d1860f08891730dd2a8b82b9e.bin"
+    },
+    {
+      "path": "mods/poke-clothing-1.2.2.jar",
+      "hash": "2716eea90d438f63731891e76499303f592108f84732c4acfe366fdfbb943caa",
+      "size": 325615,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-2716eea90d438f63731891e76499303f592108f84732c4acfe366fdfbb943caa.bin"
+    },
+    {
+      "path": "mods/polymer-bundled-0.9.19+1.21.1.jar",
+      "hash": "8c6bb7897bf53e3207a2ca4fc26db55471990b605855f494c2d80bfcabd1ed3b",
+      "size": 1705944,
+      "profiles": [
+        "full"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-8c6bb7897bf53e3207a2ca4fc26db55471990b605855f494c2d80bfcabd1ed3b.bin"
+    },
+    {
+      "path": "mods/pommel-held-items-1.4.2+1.21.x.jar",
+      "hash": "f895e4983846ab538cb0210f6626ce0b437f3a90c1e716ad78f18c6facd134f7",
+      "size": 50703,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-f895e4983846ab538cb0210f6626ce0b437f3a90c1e716ad78f18c6facd134f7.bin"
+    },
+    {
+      "path": "mods/progression-reborn-1.21.1-v1.5.11.jar",
+      "hash": "4ebbdc54e3463e582f48901e8baecd28fc45542cdc946b73a64a9d317c48a5e9",
+      "size": 1017687,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-4ebbdc54e3463e582f48901e8baecd28fc45542cdc946b73a64a9d317c48a5e9.bin"
+    },
+    {
+      "path": "mods/PuzzlesLib-v21.1.52-1.21.1-Fabric.jar",
+      "hash": "f63f5916cea9e2daa0c36f8d420c593476b963177c91e866114ff79fe596072e",
+      "size": 1467875,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-f63f5916cea9e2daa0c36f8d420c593476b963177c91e866114ff79fe596072e.bin"
+    },
+    {
+      "path": "mods/rad-gyms-fabric-0.4.4.jar",
+      "hash": "46f851d7d04376a9489bb585788bf53be8fc20542cae95e908e2861c5e4db789",
+      "size": 1044530,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-46f851d7d04376a9489bb585788bf53be8fc20542cae95e908e2861c5e4db789.bin"
+    },
+    {
+      "path": "mods/raid_den_keys-1.0.0.jar",
+      "hash": "9bbaf0ac9376d41e0fdce1fd07aab1a3611e192b983b427b078dccbfb8675aa3",
+      "size": 32206,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-9bbaf0ac9376d41e0fdce1fd07aab1a3611e192b983b427b078dccbfb8675aa3.bin"
+    },
+    {
+      "path": "mods/rctapi-fabric-1.21.1-0.15.2-beta.jar",
+      "hash": "e5bd96b1b74aad41588acc078e7385ca72f66a862aae47adda3d55b44c1d5ba8",
+      "size": 234250,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e5bd96b1b74aad41588acc078e7385ca72f66a862aae47adda3d55b44c1d5ba8.bin"
+    },
+    {
+      "path": "mods/rctmod-fabric-1.21.1-0.18.1-beta.jar",
+      "hash": "92951d3be475a0433f8ef508439730723e2e901dd1e3b2509c29205031d4eb51",
+      "size": 6757956,
+      "profiles": [
+        "android",
+        "lite",
+        "full"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-92951d3be475a0433f8ef508439730723e2e901dd1e3b2509c29205031d4eb51.bin"
+    },
+    {
+      "path": "mods/releaserewards-fabric-3.0.2.jar",
+      "hash": "30f57e31cc3ca5e84e043a72e1865edcfb4d84798a586a28f70cecac0cab6b3c",
+      "size": 115589,
+      "profiles": [
+        "lite",
+        "android",
+        "full"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-30f57e31cc3ca5e84e043a72e1865edcfb4d84798a586a28f70cecac0cab6b3c.bin"
+    },
+    {
+      "path": "mods/resourcefullib-fabric-1.21-3.0.12.jar",
+      "hash": "93064c5aff85bf5e6385470f311fd1c7de172f58b02fefb1d2920db76f8cd8b5",
+      "size": 485586,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-93064c5aff85bf5e6385470f311fd1c7de172f58b02fefb1d2920db76f8cd8b5.bin"
+    },
+    {
+      "path": "mods/SereneSeasons-fabric-1.21.1-10.1.0.3.jar",
+      "hash": "e0fe982ef34b9fcfba2c22dbb748a3807f173d6a6265cc5365ab3c7914db4188",
+      "size": 385996,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e0fe982ef34b9fcfba2c22dbb748a3807f173d6a6265cc5365ab3c7914db4188.bin"
+    },
+    {
+      "path": "mods/shield_api-fabric-2.2.0.jar",
+      "hash": "679aac13306033fe0772a3b2e5fc7c1a898a34b3a9a46381e4233d9129157ed4",
+      "size": 45105,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-679aac13306033fe0772a3b2e5fc7c1a898a34b3a9a46381e4233d9129157ed4.bin"
+    },
+    {
+      "path": "mods/SimpleTMs-fabric-2.3.3.jar",
+      "hash": "c5baa07f405433f62218fc3916360d4cda37558d01d493df7a618ac7d78d22c1",
+      "size": 821382,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c5baa07f405433f62218fc3916360d4cda37558d01d493df7a618ac7d78d22c1.bin"
+    },
+    {
+      "path": "mods/smart_particles+mc1.21.1-1.01.10.jar",
+      "hash": "42380961a313ac77ce62d223b2f59b3375f5c5a3507cd033d712ea6127cef78e",
+      "size": 50316,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "client",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-42380961a313ac77ce62d223b2f59b3375f5c5a3507cd033d712ea6127cef78e.bin"
+    },
+    {
+      "path": "mods/sodium-fabric-0.6.13+mc1.21.1.jar",
+      "hash": "e04599514d88e41765f710eeba59e3814909833396bc11b977f48fc2e7e50353",
+      "size": 1297761,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "client",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-e04599514d88e41765f710eeba59e3814909833396bc11b977f48fc2e7e50353.bin"
+    },
+    {
+      "path": "mods/starlightfusion-fabric-1.8.0.jar",
+      "hash": "c95b3e17e45a8114a5f70dd2238c8a0791d3823f09078b0d09a7b361fafc9763",
+      "size": 1300094,
+      "profiles": [
+        "full",
+        "android",
+        "lite"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c95b3e17e45a8114a5f70dd2238c8a0791d3823f09078b0d09a7b361fafc9763.bin"
+    },
+    {
+      "path": "mods/structure_pool_api-fabric-1.2.1+1.21.1.jar",
+      "hash": "54c1aa9b903f5dfdccfb80e6f2c88cb98147f45650b66e3a8a9d04a5f23e46b3",
+      "size": 140933,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-54c1aa9b903f5dfdccfb80e6f2c88cb98147f45650b66e3a8a9d04a5f23e46b3.bin"
+    },
+    {
+      "path": "mods/supermartijn642configlib-1.1.8-fabric-mc1.21.jar",
+      "hash": "63a29f2acf4be2c5ca89a81a046c1100111ad2865d9638f638e27ca161e7211c",
+      "size": 206993,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-63a29f2acf4be2c5ca89a81a046c1100111ad2865d9638f638e27ca161e7211c.bin"
+    },
+    {
+      "path": "mods/supermartijn642corelib-1.1.24-fabric-mc1.21.jar",
+      "hash": "2fefc1e62061cad97f4239d0047a6a9103e3eac02b09f60311b58385e03ee3ec",
+      "size": 620662,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-2fefc1e62061cad97f4239d0047a6a9103e3eac02b09f60311b58385e03ee3ec.bin"
+    },
+    {
+      "path": "mods/tbcs-fabric-1.21.1-0.14.1-beta.jar",
+      "hash": "44664d5d6cc711eab645133b85306e0ccbbd59a6c98f6b3464c9f9cd8b4fbef7",
+      "size": 57031,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-44664d5d6cc711eab645133b85306e0ccbbd59a6c98f6b3464c9f9cd8b4fbef7.bin"
+    },
+    {
+      "path": "mods/TerraBlender-fabric-1.21.1-4.1.0.8.jar",
+      "hash": "5f2d25306abfed8c6c6291e8904ae1a9f6a8ab4f1bf5f3a21f7e263a5bf217a6",
+      "size": 337989,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-5f2d25306abfed8c6c6291e8904ae1a9f6a8ab4f1bf5f3a21f7e263a5bf217a6.bin"
+    },
+    {
+      "path": "mods/ToughAsNails-fabric-1.21.1-10.1.0.13.jar",
+      "hash": "1aa417fffd5618db83e5808f9eed93a2dbf0e3b8622630fc6f46fdfad21915b8",
+      "size": 666864,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-1aa417fffd5618db83e5808f9eed93a2dbf0e3b8622630fc6f46fdfad21915b8.bin"
+    },
+    {
+      "path": "mods/TrainerAttributesLib-1.7.3-1.0.2-SVFRAME-REGISTRYFIX1.jar",
+      "hash": "8b543704a0d31dc7d461703b1ddfc09fb36057c6770a0ea1aa60b850feaf8517",
+      "size": 994776,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-8b543704a0d31dc7d461703b1ddfc09fb36057c6770a0ea1aa60b850feaf8517.bin"
+    },
+    {
+      "path": "mods/trinkets-3.10.0.jar",
+      "hash": "349fd2aa8930b232050ee5304db55e4ef738b017971afe7c84acd589a95fda2f",
+      "size": 272944,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-349fd2aa8930b232050ee5304db55e4ef738b017971afe7c84acd589a95fda2f.bin"
+    },
+    {
+      "path": "mods/u_team_core-fabric-1.21.1-5.6.2.384.jar",
+      "hash": "dfbb7e5a09f371be14fd59fbb2fc8bf47f4eae5c03e9687017635fc08c973dea",
+      "size": 506651,
+      "profiles": [
+        "lite",
+        "android",
+        "full"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-dfbb7e5a09f371be14fd59fbb2fc8bf47f4eae5c03e9687017635fc08c973dea.bin"
+    },
+    {
+      "path": "mods/useful_backpacks-fabric-1.21.1-3.0.2.129.jar",
+      "hash": "9216d1ec3125221c8f27c4180266fb3b05ebd85b6ad173abe307a2bf9261b7c1",
+      "size": 176741,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-9216d1ec3125221c8f27c4180266fb3b05ebd85b6ad173abe307a2bf9261b7c1.bin"
+    },
+    {
+      "path": "mods/wild_battle_api-fabric-1.1.2.jar",
+      "hash": "c25fee08e90ed8d28d2a0051f892bae28e1d6d8522c523131bd7dcbef9bcd0a8",
+      "size": 253029,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-c25fee08e90ed8d28d2a0051f892bae28e1d6d8522c523131bd7dcbef9bcd0a8.bin"
+    },
+    {
+      "path": "mods/xaerominimap-fabric-1.21.1-26.4.2.jar",
+      "hash": "85342f8f7c098e98f2f200fbba308a243af1204cb1afd7668360420e635aa2f8",
+      "size": 2233608,
+      "profiles": [
+        "full",
+        "lite"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-85342f8f7c098e98f2f200fbba308a243af1204cb1afd7668360420e635aa2f8.bin"
+    },
+    {
+      "path": "mods/xaeroworldmap-fabric-1.21.1-1.45.0.jar",
+      "hash": "ea84c45cb1b994a7738515670b281bcd373a9d9cc3d8d3a24b84a4baf302b9d6",
+      "size": 1451594,
+      "profiles": [
+        "lite",
+        "full"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-ea84c45cb1b994a7738515670b281bcd373a9d9cc3d8d3a24b84a4baf302b9d6.bin"
+    },
+    {
+      "path": "mods/zamega-fabric-1.7.6.jar",
+      "hash": "115147202e72f3f8a06595ea403e2194ce2c7d82b17a6e5d30a49771dcd29751",
+      "size": 1082887,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-115147202e72f3f8a06595ea403e2194ce2c7d82b17a6e5d30a49771dcd29751.bin"
+    }
+  ]
+}
