@@ -7,6 +7,5 @@
   "modLoader": "fabric",
   "defaultFabricLoader": "0.18.4",
   "javaMajor": 21,
-  "microsoftClientId": "e4e89832-4229-46c3-90b1-a808ea750ec1",
-  "microsoftDirectLaunch": true
+  "microsoftClientId": "e4e89832-4229-46c3-90b1-a808ea750ec1"
 }
