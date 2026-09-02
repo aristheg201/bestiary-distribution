@@ -1,6 +1,6 @@
 {
   "version": "1.0.7-official",
-  "timestamp": 1788355718283,
+  "timestamp": 1788359170964,
   "minecraft": {
     "version": "1.21.1",
     "loader": "fabric",
@@ -14,7 +14,7 @@
       "minimumRamMb": 6144,
       "recommendedRamMb": 8192,
       "fileCount": 123,
-      "totalBytes": 509939616
+      "totalBytes": 509943475
     },
     "lite": {
       "name": "Lite",
@@ -22,7 +22,7 @@
       "minimumRamMb": 3072,
       "recommendedRamMb": 4096,
       "fileCount": 117,
-      "totalBytes": 483077535
+      "totalBytes": 483081394
     },
     "android": {
       "name": "Android",
@@ -30,7 +30,7 @@
       "minimumRamMb": 3072,
       "recommendedRamMb": 4096,
       "fileCount": 111,
-      "totalBytes": 475815479
+      "totalBytes": 475819338
     },
     "server": {
       "name": "Server",
@@ -38,7 +38,7 @@
       "minimumRamMb": 0,
       "recommendedRamMb": 0,
       "fileCount": 1,
-      "totalBytes": 125430
+      "totalBytes": 129289
     }
   },
   "files": [
@@ -1468,9 +1468,9 @@
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-2fefc1e62061cad97f4239d0047a6a9103e3eac02b09f60311b58385e03ee3ec.bin"
     },
     {
-      "path": "mods/SVQuest-0.1.0-beta.14.jar",
-      "hash": "677f2099e575fa03f22d24c6e997129cd17cff8ed4f3600bf4c1e9dde3f036e9",
-      "size": 125430,
+      "path": "mods/SVQuest-0.1.0-beta.15.jar",
+      "hash": "468988d2956befec6192ccac358d8268afb2c6083712fe7cabf1239815ea89e1",
+      "size": 129289,
       "profiles": [
         "full",
         "lite",
@@ -1479,7 +1479,7 @@
       ],
       "side": "both",
       "androidCompatibility": "auto",
-      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-677f2099e575fa03f22d24c6e997129cd17cff8ed4f3600bf4c1e9dde3f036e9.bin"
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-468988d2956befec6192ccac358d8268afb2c6083712fe7cabf1239815ea89e1.bin"
     },
     {
       "path": "mods/tbcs-fabric-1.21.1-0.14.1-beta.jar",
