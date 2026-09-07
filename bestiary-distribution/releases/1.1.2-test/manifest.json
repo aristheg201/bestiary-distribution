@@ -1,6 +1,6 @@
 {
   "version": "1.1.2-test",
-  "timestamp": 1788792119511,
+  "timestamp": 1788792222104,
   "minecraft": {
     "version": "1.21.1",
     "loader": "fabric",
@@ -13,24 +13,24 @@
       "description": "Đầy đủ nội dung và hiệu ứng Bestiary.",
       "minimumRamMb": 6144,
       "recommendedRamMb": 8192,
-      "fileCount": 119,
-      "totalBytes": 557009076
+      "fileCount": 120,
+      "totalBytes": 569748639
     },
     "lite": {
       "name": "Lite",
       "description": "Nhẹ hơn, ưu tiên FPS và thời gian tải.",
       "minimumRamMb": 3072,
       "recommendedRamMb": 4096,
-      "fileCount": 115,
-      "totalBytes": 531457696
+      "fileCount": 116,
+      "totalBytes": 544197259
     },
     "android": {
       "name": "Android",
       "description": "Bộ mod dành riêng cho Bestiary Launcher Android / Pojav.",
       "minimumRamMb": 3072,
       "recommendedRamMb": 4096,
-      "fileCount": 107,
-      "totalBytes": 456248930
+      "fileCount": 108,
+      "totalBytes": 468988493
     },
     "server": {
       "name": "Server",
@@ -501,6 +501,19 @@
       "side": "both",
       "androidCompatibility": "auto",
       "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-b73f932c5e9f20eec28147c5113b28f15d92b77131fdce2f591d34518d7be709.bin"
+    },
+    {
+      "path": "mods/cobblemon-trainer-battle-1.11.13+1.8.0 (1).jar",
+      "hash": "59572783b07fb19ac2016b3978af9b24a53c851eb3af2bb20ffdbfd3f3e1a2f3",
+      "size": 12739563,
+      "profiles": [
+        "full",
+        "lite",
+        "android"
+      ],
+      "side": "both",
+      "androidCompatibility": "auto",
+      "downloadUrl": "https://github.com/aristheg201/bestiary-distribution/releases/download/bestiary-objects/o-59572783b07fb19ac2016b3978af9b24a53c851eb3af2bb20ffdbfd3f3e1a2f3.bin"
     },
     {
       "path": "mods/Cobblemon-Utility+-fabric-1.7.4 no recipes.jar",
