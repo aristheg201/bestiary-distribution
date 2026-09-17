@@ -9,10 +9,10 @@
       "releaseNotes": "Sửa lỗi launcher trên Windows đóng xong không mở lại được. Dọn single-instance lifecycle, khôi phục hoặc tạo lại cửa sổ khi mở lần hai và buộc launcher thoát hẳn khi đóng cửa sổ cuối."
     },
     "manager": {
-      "version": "6.3.2",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/manager-v6.3.2/BestiaryPackManager-Setup-6.3.2.exe",
-      "sha256": "e32cc443f6e1681476d1ff91ee1a3669c862f0aa1060a0692efa7789c10aaf21",
-      "releaseNotes": "Sửa Keybind Manager: chọn hoặc kéo options.txt thật từ Minecraft instance thay vì giả định file nằm trong workspace. Manager ghi nhớ nguồn cục bộ, tự quét lại các key_*, giữ DEFAULT/LOCKED và bỏ tạo/xóa action thủ công. Không publish đường dẫn máy quản trị hay các setting Minecraft không liên quan."
+      "version": "6.3.3",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/manager-v6.3.3/BestiaryPackManager-Setup-6.3.3.exe",
+      "sha256": "080c08dc8b3419a9566c7a24dbcb23e9cf52d7c92b0a4ddefdf7794ea12c1443",
+      "releaseNotes": "Sửa publisher GitHub Release Asset: chỉ reuse object đã uploaded, tự phát hiện và xóa asset state=starter do upload bị đứt, retry lỗi upload tạm thời và xác minh size/digest trước khi ghi manifest. Ngăn lỗi HTTP 500 Error saving asset và tránh manifest trỏ vào object chưa hoàn tất."
     },
     "android": {
       "version": "1.0.4",
