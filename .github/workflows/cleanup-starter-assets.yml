@@ -1,0 +1,36 @@
+name: Cleanup stuck Bestiary object assets
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/cleanup-starter-assets.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Delete incomplete starter assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          release_id="$(gh api "repos/$REPO/releases/tags/bestiary-objects" --jq '.id')"
+          mapfile -t starter_ids < <(gh api --paginate "repos/$REPO/releases/$release_id/assets?per_page=100" --jq '.[] | select(.state == "starter") | .id')
+          if ((${#starter_ids[@]} == 0)); then
+            echo "No starter assets found."
+            exit 0
+          fi
+          for asset_id in "${starter_ids[@]}"; do
+            echo "Deleting stuck release asset $asset_id"
+            gh api --method DELETE "repos/$REPO/releases/assets/$asset_id"
+          done
+          remaining="$(gh api --paginate "repos/$REPO/releases/$release_id/assets?per_page=100" --jq '[.[] | select(.state == "starter")] | length' | awk '{s+=$1} END {print s+0}')"
+          test "$remaining" -eq 0
+          echo "All starter assets cleaned."
