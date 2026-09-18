@@ -5,11 +5,12 @@
     "launcher": {
       "version": "5.4.4",
       "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.4/BestiaryLauncher-Setup-5.4.4.exe",
-      "sha256": "21036f2b640afce187ce1e8e97b1147a6f2a2e4d1e43e136fe05f799dd0723cd",
+      "sha256": "a9295680460fee7d36fad2c6baeefae42d3ad2684d1a073d861d3771071b75b5",
       "releaseNotes": "Cập nhật trực tiếp lên 5.4.4 cho mọi Bestiary Launcher có updater từ 5.2.0 trở lên, không cần qua bản trung gian. Sửa crash Java heap khi tải Cobblemon/resource pack: bắt buộc tối thiểu 3 GB heap, tự migrate JVM profile cũ 539 sang 544, bỏ các G1/Aikar flags kiểu server không phù hợp client và giữ nguyên lifecycle fix của 5.4.3.",
       "minimumAutoUpdateSourceVersion": "5.2.0",
       "mandatoryBelowVersion": "5.4.4",
-      "directUpgrade": true
+      "directUpgrade": true,
+      "assetSize": 89477862
     },
     "manager": {
       "version": "6.3.3",
