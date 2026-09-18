@@ -3,10 +3,10 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.4.3",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.3/BestiaryLauncher-Setup-5.4.3.exe",
-      "sha256": "05cf27067e05a3eee9bbb2671a6a2fd016d09081ec4a65c1ea7d61438c7a0e83",
-      "releaseNotes": "Sửa lỗi launcher trên Windows đóng xong không mở lại được. Dọn single-instance lifecycle, khôi phục hoặc tạo lại cửa sổ khi mở lần hai và buộc launcher thoát hẳn khi đóng cửa sổ cuối."
+      "version": "5.4.4",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.4/BestiaryLauncher-Setup-5.4.4.exe",
+      "sha256": "21036f2b640afce187ce1e8e97b1147a6f2a2e4d1e43e136fe05f799dd0723cd",
+      "releaseNotes": "Sửa crash Java heap khi tải Cobblemon/resource pack trên máy ít RAM: launcher bắt buộc tối thiểu 3 GB heap, tự migrate JVM profile cũ 539 sang 544, bỏ các G1/Aikar flags kiểu server không phù hợp client và giữ nguyên lifecycle fix của 5.4.3."
     },
     "manager": {
       "version": "6.3.3",
