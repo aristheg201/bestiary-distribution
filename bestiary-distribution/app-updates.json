@@ -13,10 +13,10 @@
       "assetSize": 89477857
     },
     "manager": {
-      "version": "6.3.4",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/manager-v6.3.4/BestiaryPackManager-Setup-6.3.4.exe",
-      "sha256": "3d77b15af0e83221835d8b22f5d3a0464e34bb870b6fca9f1331d70422118ffc",
-      "releaseNotes": "Sửa auto update và GitHub login: updater chạy từ main process, dùng Chromium network stack, cache-bust feed, khôi phục device-login modal và mở trình duyệt Windows bằng native URL handler có fallback. Giữ toàn bộ publisher upload recovery của 6.3.3."
+      "version": "6.3.5",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/manager-v6.3.5/BestiaryPackManager-Setup-6.3.5.exe",
+      "sha256": "7f6ec1d9450093fc3506668864db34dca9c9843084888d45d55ca365c96eed88",
+      "releaseNotes": "Remote state sync: máy mới sau GitHub login đọc release history, stable/testing pointers và published mod policy trực tiếp từ distribution repo; publish mới lưu managerPolicy kể cả mod disabled; promote stable không còn phụ thuộc local release cache. Giữ updater/auth fix 6.3.4 và upload recovery 6.3.3."
     },
     "android": {
       "version": "1.0.4",
