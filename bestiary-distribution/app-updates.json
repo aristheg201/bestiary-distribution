@@ -13,10 +13,10 @@
       "assetSize": 89477857
     },
     "manager": {
-      "version": "6.3.5",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/manager-v6.3.5/BestiaryPackManager-Setup-6.3.5.exe",
-      "sha256": "7f6ec1d9450093fc3506668864db34dca9c9843084888d45d55ca365c96eed88",
-      "releaseNotes": "Remote state sync: máy mới sau GitHub login đọc release history, stable/testing pointers và published mod policy trực tiếp từ distribution repo; publish mới lưu managerPolicy kể cả mod disabled; promote stable không còn phụ thuộc local release cache. Giữ updater/auth fix 6.3.4 và upload recovery 6.3.3."
+      "version": "6.3.6",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/manager-v6.3.6/BestiaryPackManager-Setup-6.3.6.exe",
+      "sha256": "c4d200fd9c903e6f9c045c40f435e1171eec9122dca56905f9858b96e8fd1ef3",
+      "releaseNotes": "Real cross-machine sync: fresh install mặc định dùng aristheg201/bestiary-distribution và Microsoft Client ID e4e89832-4229-46c3-90b1-a808ea750ec1; workspace trống tự pull stable manifest, tải object thật, verify size + SHA256 và dựng lại files; có nút Đồng bộ Stable thủ công. Giữ updater/auth và upload recovery."
     },
     "android": {
       "version": "1.0.4",
