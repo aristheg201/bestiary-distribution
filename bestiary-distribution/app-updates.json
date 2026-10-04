@@ -3,20 +3,20 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.4.4",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.4/BestiaryLauncher-Setup-5.4.4.exe",
-      "sha256": "21036f2b640afce187ce1e8e97b1147a6f2a2e4d1e43e136fe05f799dd0723cd",
-      "releaseNotes": "Cập nhật trực tiếp lên 5.4.4 cho mọi Bestiary Launcher có updater từ 5.2.0 trở lên, không cần qua bản trung gian. 5.4.4 dùng asset cố định SHA-256 21036f2b640afce187ce1e8e97b1147a6f2a2e4d1e43e136fe05f799dd0723cd. Sửa crash Java heap khi tải Cobblemon/resource pack: bắt buộc tối thiểu 3 GB heap, tự migrate JVM profile cũ 539 sang 544, bỏ các G1/Aikar flags kiểu server không phù hợp client và giữ nguyên lifecycle fix của 5.4.3.",
+      "version": "5.4.7",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.7/BestiaryLauncher-Setup-5.4.7.exe",
+      "sha256": "85c143dfc3b3e4065a2625b5f943193230d51dc4ab71ac13f60b44f825eabba3",
+      "releaseNotes": "Auto-update hoàn chỉnh cho Launcher: tự kiểm tra và tải bản mới sau khi mở app khoảng 1,2 giây. Giữ Pack Manager/Content KEYBINDS editor, Settings keybind editor, conflict/locked policy, auto-hide khi Minecraft chạy, restore khi game đóng và JVM minimum heap 3072 MB. Có thể nâng cấp trực tiếp từ mọi Launcher có updater từ 5.2.0 trở lên.",
       "minimumAutoUpdateSourceVersion": "5.2.0",
-      "mandatoryBelowVersion": "5.4.4",
+      "mandatoryBelowVersion": "5.4.7",
       "directUpgrade": true,
-      "assetSize": 89477857
+      "assetSize": 89483563
     },
     "manager": {
       "version": "6.3.6",
       "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/manager-v6.3.6/BestiaryPackManager-Setup-6.3.6.exe",
       "sha256": "c4d200fd9c903e6f9c045c40f435e1171eec9122dca56905f9858b96e8fd1ef3",
-      "releaseNotes": "Real cross-machine sync: fresh install mặc định dùng aristheg201/bestiary-distribution và Microsoft Client ID e4e89832-4229-46c3-90b1-a808ea750ec1; workspace trống tự pull stable manifest, tải object thật, verify size + SHA256 và dựng lại files; có nút Đồng bộ Stable thủ công. Giữ updater/auth và upload recovery."
+      "releaseNotes": "Bestiary Pack Manager 6.3.6: startup auto-update tự kiểm tra/tải bản Manager mới, có quản lý keybind từ options.txt với DEFAULT/LOCKED policy, conflict detection và autoscan; đồng thời giữ real cross-machine stable sync, SHA256 verification, GitHub auth và upload recovery."
     },
     "android": {
       "version": "1.0.4",
