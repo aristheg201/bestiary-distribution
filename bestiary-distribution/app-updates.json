@@ -3,14 +3,14 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.4.7",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.7/BestiaryLauncher-Setup-5.4.7.exe",
-      "sha256": "85c143dfc3b3e4065a2625b5f943193230d51dc4ab71ac13f60b44f825eabba3",
-      "releaseNotes": "Auto-update hoàn chỉnh cho Launcher: tự kiểm tra và tải bản mới sau khi mở app khoảng 1,2 giây. Giữ Pack Manager/Content KEYBINDS editor, Settings keybind editor, conflict/locked policy, auto-hide khi Minecraft chạy, restore khi game đóng và JVM minimum heap 3072 MB. Có thể nâng cấp trực tiếp từ mọi Launcher có updater từ 5.2.0 trở lên.",
+      "version": "5.4.8",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.8/BestiaryLauncher-Setup-5.4.8.exe",
+      "sha256": "916c79855a513334d88fb0942be46212b70a4aa389cac49ed3301669cbb792fb",
+      "releaseNotes": "Bestiary Launcher 5.4.8: bổ sung My Modpacks cá nhân (tạo, đổi tên, nhân bản, xóa, bật/tắt mod, quản lý resource pack/shader, import/export ZIP), cách ly dữ liệu modpack khỏi client SVFrame Official Full/Lite. Giữ auto-updater kiểm tra và tải bản mới khi mở launcher, hỗ trợ nâng cấp trực tiếp từ 5.2.0 trở lên. Lưu ý: Play riêng từng modpack và tải mod trực tuyến từ CurseForge API chưa được triển khai.",
       "minimumAutoUpdateSourceVersion": "5.2.0",
       "mandatoryBelowVersion": "5.4.7",
       "directUpgrade": true,
-      "assetSize": 89483563
+      "assetSize": 89489232
     },
     "manager": {
       "version": "6.3.6",
