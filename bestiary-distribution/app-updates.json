@@ -3,14 +3,14 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.4.8",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.8/BestiaryLauncher-Setup-5.4.8.exe",
-      "sha256": "916c79855a513334d88fb0942be46212b70a4aa389cac49ed3301669cbb792fb",
-      "releaseNotes": "Bestiary Launcher 5.4.8: bổ sung My Modpacks cá nhân (tạo, đổi tên, nhân bản, xóa, bật/tắt mod, quản lý resource pack/shader, import/export ZIP), cách ly dữ liệu modpack khỏi client SVFrame Official Full/Lite. Giữ auto-updater kiểm tra và tải bản mới khi mở launcher, hỗ trợ nâng cấp trực tiếp từ 5.2.0 trở lên. Lưu ý: Play riêng từng modpack và tải mod trực tuyến từ CurseForge API chưa được triển khai.",
+      "version": "5.4.9",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.9/BestiaryLauncher-Setup-5.4.9.exe",
+      "sha256": "8e6ab4dfc937deebcff3360f8e29a1a1bffaa86a6d2386df5a456a94f4bbabe9",
+      "releaseNotes": "Hotfix 5.4.9: sửa nút CREATE MODPACK không hoạt động trên Electron; thay window.prompt/window.confirm bằng dialog React cho Create, Rename, Delete, Export. Đã QA trực tiếp với Windows Electron: tạo pack, đổi tên, mở tuỳ chọn Export, xóa pack đều PASS. Giữ chế độ Full/Lite SVFrame, auto-update và dữ liệu cá nhân. Chưa hỗ trợ Play riêng từng modpack hoặc tải mod online qua CurseForge API.",
       "minimumAutoUpdateSourceVersion": "5.2.0",
-      "mandatoryBelowVersion": "5.4.7",
+      "mandatoryBelowVersion": "5.4.9",
       "directUpgrade": true,
-      "assetSize": 89489232
+      "assetSize": 89490192
     },
     "manager": {
       "version": "6.3.6",
