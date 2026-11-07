@@ -3,14 +3,14 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.4.9",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.4.9/BestiaryLauncher-Setup-5.4.9.exe",
-      "sha256": "8e6ab4dfc937deebcff3360f8e29a1a1bffaa86a6d2386df5a456a94f4bbabe9",
-      "releaseNotes": "Hotfix 5.4.9: sửa nút CREATE MODPACK không hoạt động trên Electron; thay window.prompt/window.confirm bằng dialog React cho Create, Rename, Delete, Export. Đã QA trực tiếp với Windows Electron: tạo pack, đổi tên, mở tuỳ chọn Export, xóa pack đều PASS. Giữ chế độ Full/Lite SVFrame, auto-update và dữ liệu cá nhân. Chưa hỗ trợ Play riêng từng modpack hoặc tải mod online qua CurseForge API.",
+      "version": "5.5.0",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.5.0/BestiaryLauncher-Setup-5.5.0.exe",
+      "sha256": "1729ae65265488a68156a05d16bcb06d38809b213cb7693e46fab3ad593509c1",
+      "releaseNotes": "Bestiary Launcher 5.5.0: tạo và quản lý modpack cá nhân ngay trên máy, chọn Minecraft version, Vanilla/Fabric/Quilt/Forge/NeoForge cùng loader version tương thích; profile, mod, config và world được cách ly khỏi client SVFrame Official. Windows CI xác nhận tạo/đổi tên/xóa modpack, cài NeoForge 1.21.1 và khởi chạy tiến trình Minecraft Java ít nhất 15 giây. Chưa kiểm thử toàn bộ quá trình tạo world hoặc mọi mod bên thứ ba. Modpack cá nhân không được upload lên server.",
       "minimumAutoUpdateSourceVersion": "5.2.0",
       "mandatoryBelowVersion": "5.4.9",
       "directUpgrade": true,
-      "assetSize": 89490192
+      "assetSize": 89500707
     },
     "manager": {
       "version": "6.3.6",
