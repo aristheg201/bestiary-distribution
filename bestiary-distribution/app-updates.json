@@ -3,14 +3,14 @@
   "releaseRepository": "aristheg201/codespaces-blank",
   "products": {
     "launcher": {
-      "version": "5.5.1",
-      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.5.1/BestiaryLauncher-Setup-5.5.1.exe",
-      "sha256": "575b0ce4fbfe012a5556410706dc2bbe9a728242fc2cac185f44f24fe2e05981",
-      "releaseNotes": "Bestiary Launcher 5.5.1: sửa keybind DEFAULT/LOCKED do Pack Manager phân phối CHỈ cho SVFrame Official Full/Lite; My Modpacks dùng options.txt riêng, không bị policy Official ghi đè. Sửa options.txt first-run thiếu Minecraft data version; cân bằng heap Windows/iGPU, Lite graphics phù hợp phần cứng và giới hạn RAM modpack cá nhân. Windows CI PASS TypeScript, Electron modpack CRUD, NeoForge installer; Minecraft 1.21.1 Fabric SVFrame Lite đã verify SHA256 đủ 136 file, vào world thực qua dedicated server và chạy ổn định 30 giây bằng Mesa llvmpipe. Benchmark GPU phần mềm không tương đương FPS trên máy yếu. Auto-update TRỰC TIẾP từ launcher 5.2.0 trở lên; bản cũ hơn cần cài installer một lần.",
+      "version": "5.6.1",
+      "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.6.1/BestiaryLauncher-Setup-5.6.1.exe",
+      "sha256": "7303e6a9de161fccd6293525f7d7c55413c887680a157850236a0a62f8bbcbc9",
+      "releaseNotes": "Bestiary Launcher 5.6.1 Official: My Modpacks cài mod .jar / resource pack / shader .zip chỉ từ file cục bộ player tự tải rồi kéo thả hoặc chọn file; không tích hợp API CurseForge hay tự tải mod dependency. Runtime Minecraft Java và RAM riêng từng instance; Local/Offline và Microsoft OAuth hiện tại được giữ nguyên. SVFrame Official Full/Lite tiếp tục nhận keybind/config do Bestiary Pack Manager quản lý; My Modpacks độc lập. QA PASS Windows TypeScript, Electron OS-backed drag/drop + file picker, Local/Offline + Microsoft IPC regression, NeoForge installer; Minecraft Fabric 1.21.1 nhận local mod và vào world ổn định 30 giây trên Mesa llvmpipe. Chưa thử Microsoft login với tài khoản thật hoặc FPS trên GPU vật lý. Cập nhật trực tiếp từ launcher >= 5.2.0; các bản cũ hơn cần cài installer một lần.",
       "minimumAutoUpdateSourceVersion": "5.2.0",
-      "mandatoryBelowVersion": "5.5.1",
+      "mandatoryBelowVersion": "5.6.1",
       "directUpgrade": true,
-      "assetSize": 89503497
+      "assetSize": 89507865
     },
     "manager": {
       "version": "6.3.6",
