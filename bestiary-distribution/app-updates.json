@@ -6,9 +6,9 @@
       "version": "5.5.0",
       "installerUrl": "https://github.com/aristheg201/codespaces-blank/releases/download/launcher-v5.5.0/BestiaryLauncher-Setup-5.5.0.exe",
       "sha256": "1729ae65265488a68156a05d16bcb06d38809b213cb7693e46fab3ad593509c1",
-      "releaseNotes": "Bestiary Launcher 5.5.0: tạo và quản lý modpack cá nhân ngay trên máy, chọn Minecraft version, Vanilla/Fabric/Quilt/Forge/NeoForge cùng loader version tương thích; profile, mod, config và world được cách ly khỏi client SVFrame Official. Windows CI xác nhận tạo/đổi tên/xóa modpack, cài NeoForge 1.21.1 và khởi chạy tiến trình Minecraft Java ít nhất 15 giây. Chưa kiểm thử toàn bộ quá trình tạo world hoặc mọi mod bên thứ ba. Modpack cá nhân không được upload lên server.",
+      "releaseNotes": "Bestiary Launcher 5.5.0: nâng cấp TRỰC TIẾP từ mọi bản launcher có auto-updater từ 5.2.0 trở lên (bao gồm 5.3.x, 5.4.x), không phải qua 5.4.9. Hỗ trợ tạo và quản lý modpack cá nhân ngay trên máy, chọn Minecraft version, Vanilla/Fabric/Quilt/Forge/NeoForge cùng loader version tương thích; profile, mod, config và world độc lập với SVFrame Official. Windows CI xác nhận Create/Rename/Delete, cài NeoForge 1.21.1 và khởi chạy Minecraft Java hơn 15 giây. Modpack cá nhân không upload lên server. Bản cũ hơn 5.2.0 chưa tích hợp auto-updater cần cài bản mới một lần.",
       "minimumAutoUpdateSourceVersion": "5.2.0",
-      "mandatoryBelowVersion": "5.4.9",
+      "mandatoryBelowVersion": "5.5.0",
       "directUpgrade": true,
       "assetSize": 89500707
     },
